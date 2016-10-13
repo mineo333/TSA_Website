@@ -1,2 +1,8 @@
 # TSA_Website
-The website fore tsa
+The website for tsa.
+
+# Plans
+Make a dropdown type of menu
+Research the mission to mars
+
+Resources:
