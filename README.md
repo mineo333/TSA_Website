@@ -5,10 +5,9 @@ We will research first, so do not make any changes to these files yet.  (Except 
 IMPORTANT: DO NOT MAKE CHANGES DIRECTLY TO MASTER. If you are working on anything, branch master and commit to that instead.
 If you are just adding a few lines that will not need any debugging, you can commit to master.
 
+View the site at: https://mission-to-mars.000webhostapp.com/ This is not updated unless I do it manually, so if you want to see your changes with the PHP, ask me.
+
 Before you do anything, make sure you are familiar with how GitHub works. Here's a good place to start: https://guides.github.com/activities/hello-world/
-
-It seems that google sites doesn't give you immediate raw html editing power, so I don't really want to use it.  
-
 
 # Plans
 * Make a dropdown type of menu
