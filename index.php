@@ -25,7 +25,7 @@
 	<!-- The Navigation Bar -->
         <nav>
             <ul>
-                <li><a href="">Privitization</a></li>
+                <li><a href=""></a></li>
                 <li><a href="">Ongoing Solar System Exploration</a></li>
                 <li><a href="">Timeline</a></li>
                 <li><a href="">Evolution of Space Vehicles</a></li>
