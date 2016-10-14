@@ -7,9 +7,10 @@ If you are just adding a few lines that will not need any debugging, you can com
 
 Before you do anything, make sure you are familiar with how GitHub works. Here's a good place to start: https://guides.github.com/activities/hello-world/
 
+
 # Plans
 * Make a dropdown type of menu
-* Interactive timeline
+* Interactive timeline  (javascript)
 * Research the mission to mars
 
 # Links
