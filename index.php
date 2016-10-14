@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+	<!-- 
+	*******************************
+	*
+	*  Made for Technology 
+	*  Student Association
+	*
+	*
+	*  By Ethan James, Ryan Kim,
+	*  Darin Mao, Sharad Khanna,
+	*  Jason Kim, and Ben Miller.
+	*
+	*******************************
+	-->
 	<meta charset="utf-8">
         <title>Mission To Mars</title>	
         <link rel="stylesheet" type="text/css" href="/css/style.css">
