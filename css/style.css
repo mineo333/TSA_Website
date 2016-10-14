@@ -17,7 +17,6 @@ body {
   background-color: #999999;
   font-size: 16pt;
 }
-/*navigation bar*/
 nav{
     text-align:center;
 }
@@ -48,4 +47,3 @@ li a{
 li a:hover{
     color:yellow;
 }
-/*navigation bar ends */
