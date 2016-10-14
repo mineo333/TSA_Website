@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:#540224;
+  background-color:#DDDDDD;
 }
 #container {
   margin: 0;
@@ -44,6 +44,6 @@ li a{
     text-decoration:none;
     color:white;
 }
-li a:hover{
-    color:yellow;
+li:hover{
+color: 111111;
 }
