@@ -8,12 +8,12 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     </head>
     <body>
-	<?php include("header.php"); ?>
-	<h2>If you are reading this, it means that the server is now up and running!
+        <?php include("header.php"); ?>
 	<div id="container">
-	<div id="header"></div>
-	<div id="main"></div>
-	<?php include("footer.php"); ?>
+	   <div id="header"></div>
+	   <div id="main"><h2>If you are reading this, it means that the server is now up and running!</h2></div>
+	   <div id="footer"></div>
 	</div>
+        <?php include("footer.php"); ?>
     </body>
 </html>
