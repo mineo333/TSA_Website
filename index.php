@@ -36,7 +36,7 @@
             </ul>
         </nav>
 	<div id="container">
-	   <div id="header"></div>
+	   <div id="header">This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br></div>
 	   <div id="main">This color scheme makes me want to drink bleach<br>
 		This color scheme makes me want to drink bleach<br>
 		This color scheme makes me want to drink bleach<br>
@@ -48,7 +48,7 @@
 		This color scheme makes me want to drink bleach<br>
 		This color scheme makes me want to drink bleach<br>
 		This color scheme makes me want to drink bleach<br></div>
-	   <div id="footer"></div>
+	   <div id="footer">This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br></div>
 	</div>
         
     </body>
