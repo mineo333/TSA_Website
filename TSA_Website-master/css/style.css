@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: #777777;
+
+}
+#toolbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.toolbaritem {
+    float: left;
+}
+
+.toolbaritem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+	text-decoration: none;
+}
+
+.toolbaritem:hover {
+    background-color: #0030EE;
+}
+#main {
+  background-color: #CCCCCC;
+  height: 920px;
+}
+#footer {
+  background-color: #999999;
+  height: 140px;
+}
