@@ -13,3 +13,8 @@ Before you do anything, make sure you are familiar with how GitHub works. Here's
 * Research the mission to mars
 
 # Links
+
+# Documents
+
+* [Design Brief](https://drive.google.com/open?id=0B0SxAlF2z1IqdHF0YmVsbl9Db3c)
+* [Procedures/Directions](https://drive.google.com/open?id=0B0SxAlF2z1IqZC01aVBUZUJFS3c)
