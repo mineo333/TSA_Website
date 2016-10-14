@@ -26,29 +26,19 @@
         <nav>
             <ul>
                 <li><a href=""></a></li>
-                <li><a href="">Ongoing Solar System Exploration</a></li>
-                <li><a href="">Timeline</a></li>
-                <li><a href="">Evolution of Space Vehicles</a></li>
-                <li><a href="">Careers</a></li>
+                <li><a href="">Ongoing Solar System ExplorationThis color scheme makes me want to drink bleach<br></a></li>
+                <li><a href="">TimelineThis color scheme makes me want to drink bleach<br></a></li>
+                <li><a href="">Evolution of Space VehiclesThis color scheme makes me want to drink bleach<br></a></li>
+                <li><a href="">CareersThis color scheme makes me want to drink bleach<br></a></li>
                 <li><a href="">Pros and Cons of Being Unable to Explore</a></li>
                 <li><a href="">Interviews</a></li>
                 <li><a href="">Resources</a></li>
             </ul>
         </nav>
 	<div id="container">
-	   <div id="header">This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br></div>
-	   <div id="main">This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br>
-		This color scheme makes me want to drink bleach<br></div>
-	   <div id="footer">This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br>This color scheme makes me want to drink bleach<br></div>
+	   <div id="header"></div>
+	   <div id="main"></div>
+	   <div id="footer"></div>
 	</div>
         
     </body>
