@@ -7,6 +7,8 @@ If you are just adding a few lines that will not need any debugging, you can com
 
 Before you do anything, make sure you are familiar with how GitHub works. Here's a good place to start: https://guides.github.com/activities/hello-world/
 
+It seems that google sites doesn't give you immediate raw html editing power, so I don't really want to use it.  
+
 
 # Plans
 * Make a dropdown type of menu
