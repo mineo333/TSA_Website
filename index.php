@@ -22,6 +22,7 @@
     </head>
     <body>
 	<div id="container">
+	<?php include("header.php"); ?>
 		<ul id="toolbar">
 			<li class="toolbaritem"><a href="#N">one</a></li>
 			<li class="toolbaritem"><a href="#N">two</a></li>
@@ -31,7 +32,7 @@
 	<div id="main">
 		This is the Main Paragraph/etc.
 	</div>
-	<div id="footer">This is the Footer</div>
+	<?php include("footer.php"); ?>
 	</div>
     </body>
 </html>
