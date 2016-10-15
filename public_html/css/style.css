@@ -15,6 +15,7 @@ div#header {
 }
 div#main {
   background-color: #CCCCCC;
+  padding-top: 200px;
 }
 div#footer {
   background-color: #999999;
