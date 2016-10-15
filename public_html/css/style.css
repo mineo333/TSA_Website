@@ -34,7 +34,7 @@ img#bannerImage {
 nav{
   text-align:center;
   display:inline;
-  margin-left: 3%;
+  margin: 3%;
 }
 
 nav>ul {
