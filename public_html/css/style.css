@@ -11,9 +11,9 @@ header#navbar {
   background-color: #777777;
   padding:1%;
 }
-div#main {
+article#main {
   background-color: #CCCCCC;
-  padding-top: 200px;
+  padding:2%;
   font-size: 12pt;
 }
 div#mainTitle {
