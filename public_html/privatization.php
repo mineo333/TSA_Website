@@ -22,9 +22,9 @@
 	<div id="container">
 	   <?php include("header.php"); ?>
 	   <div id="main">
-		<span id="mainTitle">
+		<div id="mainTitle">
 			Privatization
-		</span>
+		</div>
 		This will be the privatization page
 	   </div>
 	   <?php include("footer.php"); ?>

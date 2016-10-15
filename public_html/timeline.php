@@ -22,9 +22,9 @@
 	<div id="container">
 	   <?php include("header.php"); ?>
 	   <div id="main">
-		<span id="mainTitle">
+		<div id="mainTitle">
 			Timeline
-		</span>
+		</div>
 		This will be the timeline page.
 	   </div>
 	   <?php include("footer.php"); ?>

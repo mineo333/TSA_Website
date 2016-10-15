@@ -22,9 +22,9 @@
 	<div id="container">
 	   <?php include("header.php"); ?>
 	   <div id="main">
-		<span id="mainTitle">
+		<div id="mainTitle">
 			What if we fail?
-		</span>
+		</div>
 		This will be the what if we fail page.
 	   </div>
 	   <?php include("footer.php"); ?>

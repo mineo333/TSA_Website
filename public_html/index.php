@@ -25,9 +25,9 @@
 	<div id="container">
 	   <?php include("header.php"); ?>
 	   <div id="main">
-		<span id="mainTitle">
+		<div id="mainTitle">
 			Home
-		</span>
+		</div>
 		This will be the home page.
 	   </div>
 	   <?php include("footer.php"); ?>
