@@ -1,4 +1,4 @@
-<div id="header">
+<header id="navbar">
 <img src="/images/mars.png" width="150" id="bannerImage">
 <nav>
     <h1 id="bannerTitle">Mission To Mars</h1>
@@ -13,4 +13,4 @@
         <li><a href="resources.php">Resources</a></li>
     </ul>
 </nav>
-</div>
+</header>
