@@ -45,7 +45,9 @@ nav ul {
     overflow:hidden;
     display:inline-block;
 }
-
+nav h1 {
+	display:inline;
+}
 nav ul li {
     text-align:center;
     float:left;
