@@ -1,7 +1,7 @@
 <header id="navbar">
 <img src="/images/mars.png" width="150" id="bannerImage">
 <nav>
-    <h1 id="bannerTitle">Mission To Mars</h1>
+    <h1>Mission To Mars</h1>
     <ul>
 		<li><a href="/">Home</a></li>
         <li><a href="privatization.php">Privatization</a></li>

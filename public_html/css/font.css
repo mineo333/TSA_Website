@@ -1,8 +1,20 @@
 h1 {
- font-family:Arial; 
+  font-family:Arial; 
 }
-h1#bannerTitle {
- font-family: 'Russo One', sans-serif;
- font-style: italic;
- font-size: 36pt;
+nav h1 {
+  font-family: 'Russo One', sans-serif;
+  font-style: italic;
+  font-size: 36pt;
+}
+main article {
+  font-size: 12pt;
+}
+main article header {
+  font-size:16pt;
+}
+footer {
+  font-size:10pt;
+}
+nav ul li {
+  font-family: "Arial";
 }
