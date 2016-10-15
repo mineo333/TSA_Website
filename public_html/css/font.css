@@ -3,4 +3,5 @@ h1 {
 }
 h1#bannerTitle {
  font-family: 'Russo One', sans-serif;
+ font-style: italic;
 }
