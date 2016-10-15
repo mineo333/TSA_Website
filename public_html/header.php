@@ -3,7 +3,7 @@
 <nav>
     <h1>Mission To Mars</h1>
     <ul>
-		<li><a href="/" <?php if ($_SERVER["PHP_SELF"] == "/"){echo "class=\"current\"";}else{echo $_SERVER["PHP_SELF"];} ?>>Home</a></li>
+		<li><a href="/" <?php if ($_SERVER["PHP_SELF"] == "/index.php"){echo "class=\"current\"";} ?>>Home</a></li>
         <li><a href="privatization.php" <?php if ($_SERVER["PHP_SELF"] == "/privatization.php"){echo "class=\"current\"";} ?>>Privatization</a></li>
         <li><a href="timeline.php" <?php if ($_SERVER["PHP_SELF"] == "/timeline.php"){echo "class=\"current\"";} ?>>Timeline</a></li>
         <li><a href="vehicles.php" <?php if ($_SERVER["PHP_SELF"] == "/vehicles.php"){echo "class=\"current\"";} ?>>Space Vehicles</a></li>
