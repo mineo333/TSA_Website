@@ -1,6 +1,6 @@
 <img src="/images/mars.jpg" width="150" id="bannerImage">
-<h1 id="bannerTitle">Mission To Mars</h1>
 <nav>
+            <h1 id="bannerTitle">Mission To Mars</h1>
             <ul>
                 <li><a href="privatization.php">Privatization</a></li>
                 <li><a href="timeline.php">Timeline</a></li>
