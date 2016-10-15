@@ -1,3 +1,4 @@
+<img src="/images/mars.jpg" width="150">
 <h1 id="bannerTitle">Mission To Mars</h1>
 <nav>
             <ul>
