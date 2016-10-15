@@ -3,22 +3,23 @@ body {
   padding: 0;
   background-color:#DDDDDD;
 }
-#container {
+div#container {
   margin: 0;
   padding: 0;
 }
-#header {
+div#header {
   background-color: #777777;
   position: fixed;
   top: 0px;
 }
-#main {
+div#main {
   background-color: #CCCCCC;
 }
-#footer {
+div#footer {
   background-color: #999999;
   font-size: 16pt;
   width: 100%;
+  text-align:center;
   position: fixed;
   bottom: 0px;
 }
