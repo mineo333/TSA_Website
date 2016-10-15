@@ -11,12 +11,12 @@ header#navbar {
   background-color: #777777;
   padding:1%;
 }
-article#main {
+main article {
   background-color: #CCCCCC;
   padding:2%;
   font-size: 12pt;
 }
-header#mainTitle {
+main article header {
   font-size:16pt;
 }
 div#footer {
