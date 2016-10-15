@@ -17,9 +17,16 @@ body {
   background-color: #999999;
   font-size: 16pt;
 }
-
+img#bannerImage {
+    float:left;
+    margin-left:1%;
+}
+#bannerTitle {
+    display:inline;
+}
 nav{
   text-align:center;
+  display:inline;
   margin-left: 10%;
 }
 
