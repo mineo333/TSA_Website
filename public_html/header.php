@@ -1,3 +1,4 @@
+<div id="banner">
 <img src="/images/mars.jpg" width="150" id="bannerImage">
 <nav>
             <h1 id="bannerTitle">Mission To Mars</h1>
@@ -11,3 +12,4 @@
                 <li><a href="resources.php">Resources</a></li>
             </ul>
 </nav>
+</div>
