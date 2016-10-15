@@ -1,10 +1,11 @@
  <nav>
             <ul>
-                <li><a href="">Ongoing Solar System Exploration</a></li>
-                <li><a href="">Evolution of Space Vehicles</a></li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Pros and Cons of Being Unable to Explore</a></li>
-                <li><a href="">Interviews</a></li>
-                <li><a href="">Resources</a></li>
+                <li><a href="privatization.php">Privatization</a></li>
+                <li><a href="timeline.php">Timeline</a></li>
+                <li><a href="vehicles.php">Space Vehicles</a></li>
+                <li><a href="career.php">Career Fields</a></li>
+                <li><a href="fail.php">What if we fail?</a></li>
+                <li><a href="interviews.php">Interviews</a></li>
+                <li><a href="resources.php">Resources</a></li>
             </ul>
 </nav>
