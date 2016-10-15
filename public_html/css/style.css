@@ -7,7 +7,7 @@ div#container {
   margin: 0;
   padding: 0;
 }
-div#header {
+header#navbar {
   background-color: #777777;
   position: fixed;
   top: 0px;
@@ -30,7 +30,8 @@ div#footer {
   bottom: 0px;
 }
 img#bannerImage {
-    float:left;
+  float:left;
+  width:8%;
 }
 #bannerTitle {
     display:inline;
