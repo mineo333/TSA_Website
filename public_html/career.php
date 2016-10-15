@@ -21,7 +21,12 @@
     <body>
 	<div id="container">
 	   <?php include("header.php"); ?>
-	   <div id="main">This will be the career page.</div>
+	   <div id="main">
+		<span id="mainTitle">
+			Career Fields
+		</span>
+		This will be the career page.
+	   </div>
 	   <?php include("footer.php"); ?>
 	</div>
         

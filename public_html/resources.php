@@ -21,7 +21,12 @@
     <body>
 	<div id="container">
 	   <?php include("header.php"); ?>
-	   <div id="main">This will be the resources page.</div>
+	   <div id="main">
+		<span id="mainTitle">
+			Resources
+		</span>
+		This will be the resources page.
+	   </div>
 	   <?php include("footer.php"); ?>
 	</div>
         

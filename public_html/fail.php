@@ -21,7 +21,12 @@
     <body>
 	<div id="container">
 	   <?php include("header.php"); ?>
-	   <div id="main">This will be the what if we fail page.</div>
+	   <div id="main">
+		<span id="mainTitle">
+			What if we fail?
+		</span>
+		This will be the what if we fail page.
+	   </div>
 	   <?php include("footer.php"); ?>
 	</div>
         

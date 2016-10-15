@@ -21,7 +21,12 @@
     <body>
 	<div id="container">
 	   <?php include("header.php"); ?>
-	   <div id="main">This will be the space vehicle page.</div>
+	   <div id="main">
+		<span id="mainTitle">
+			Evolution of Space Vehicles
+		</span>
+		This will be the space vehicle page.
+	   </div>
 	   <?php include("footer.php"); ?>
 	</div>
         

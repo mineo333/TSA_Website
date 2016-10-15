@@ -24,7 +24,12 @@
     <body>
 	<div id="container">
 	   <?php include("header.php"); ?>
-	   <div id="main">This will be the home page.</div>
+	   <div id="main">
+		<span id="mainTitle">
+			Home
+		</span>
+		This will be the home page.
+	   </div>
 	   <?php include("footer.php"); ?>
 	</div>
         
