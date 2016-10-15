@@ -14,8 +14,6 @@ View the site at: https://mission-to-mars.000webhostapp.com/ This SHOULD be upda
 * Interactive timeline  (javascript)
 * Research the mission to mars
 
-# Links
-
 # Documents
 
 * [Design Brief](https://drive.google.com/open?id=0B0SxAlF2z1IqdHF0YmVsbl9Db3c)
