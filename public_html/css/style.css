@@ -11,6 +11,7 @@ div#header {
   background-color: #777777;
   position: fixed;
   top: 0px;
+  padding:1%;
 }
 div#main {
   background-color: #CCCCCC;
@@ -25,7 +26,6 @@ div#footer {
 }
 img#bannerImage {
     float:left;
-    margin:1%;
 }
 #bannerTitle {
     display:inline;
