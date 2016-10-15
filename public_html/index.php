@@ -24,7 +24,7 @@
 	   <main>
 		   <article>
 			<header>
-				Home
+				Mission To Mars
 			</header>
 			This will be the home page.
 		   </article>
