@@ -7,7 +7,7 @@ If you are just adding a few lines that will not need any debugging, you can com
 
 ALSO VERY IMPORTANT: STOP DELETING THE PHP CODE! PHP is server side code, so you can only see garbage if you are viewing the files locally. You can only see the PHP code working at the server below.
 
-View the site at: https://mission-to-mars.000webhostapp.com/ This SHOULD be updated automatically.
+View the site at: https://mission-to-mars.000webhostapp.com/ This IS NOT updated automatically, so ask Darin to and he'll get it done within a minute.
 
 # Plans
 * Make a dropdown type of menu
