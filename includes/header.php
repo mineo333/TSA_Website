@@ -1,5 +1,5 @@
 <header id="navbar">
-<img src="../resources/images/mars.png" width="150" id="bannerImage">
+<img src="/images/mars.png" width="150" id="bannerImage">
 <nav>
     <h1>Mission To Mars</h1>
     <ul>
