@@ -16,11 +16,11 @@
 		-->
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
-		<?php include("head.php"); ?>
+		<?php include("../includes/head.php"); ?>
     </head>
     <body>
 	<div id="container">
-	   <?php include("header.php"); ?>
+	   <?php include("../includes/header.php"); ?>
 	   <main>
 		   <article>
 			<header>
@@ -29,7 +29,7 @@
 			This will be the home page.
 		   </article>
 	   </main>
-	   <?php include("footer.php"); ?>
+	   <?php include("../includes/footer.php"); ?>
 	</div>
         
     </body>
