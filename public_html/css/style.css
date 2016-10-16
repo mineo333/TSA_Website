@@ -19,7 +19,7 @@ footer {
   background-color: #999999;
   width: 100%;
   text-align:center;
-  position: position;
+  position: absolute;
   bottom: 0px;
 }
 img#bannerImage {
