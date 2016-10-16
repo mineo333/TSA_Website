@@ -6,6 +6,8 @@ body {
 div#container {
   margin: 0;
   padding: 0;
+  position: relative;
+  min-height: 100%;
 }
 header#navbar {
   background-color: #777777;
