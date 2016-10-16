@@ -59,9 +59,9 @@ nav ul li a {
     text-decoration:none;
     color:white;
 }
-li a:hover {
-    background-color: #111111;
+nav ul li:hover {
+    background-color: #990000;
 }
 li a.current {
-    background-color: #FF6A05
+    background-color: #bb0000;
 }
