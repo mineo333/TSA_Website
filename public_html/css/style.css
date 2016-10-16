@@ -19,6 +19,7 @@ header#navbar {
 main article {
   background-color: #CCCCCC;
   padding:2%;
+  padding-bottom:4%;
 }
 footer {
   background-color: #999999;
