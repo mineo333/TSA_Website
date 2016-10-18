@@ -2,7 +2,7 @@ h1 {
   font-family:Arial; 
 }
 nav h1 {
-  font-family: 'Russo One', sans-serif;
+  font-family: Russo One, sans-serif;
   font-style: italic;
   font-size: 4.5em;
 }
@@ -16,5 +16,9 @@ footer {
   font-size:0.813;
 }
 nav ul li {
-  font-family: "Arial";
+  font-family: Arial;
+}
+
+footer{
+ font-family:Arial; 
 }
