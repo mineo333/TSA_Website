@@ -8,3 +8,5 @@
                 <li><a href="">Resources</a></li>
             </ul>
 </nav>
+<!--We can use the down menu to account this instead of a footer -Sharad Khanna-->
+ 
