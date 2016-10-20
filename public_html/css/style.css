@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-image:url("http://www.nasa.gov/images/content/602857main_pia14293-amended-43_946-710.jpg");
+  background-size:100%;
 }
 div#container {
   margin: 0;
@@ -17,9 +18,9 @@ header#navbar {
   padding:1%;
 }
 main article {
-  background-color: #CCCCCC;
   padding:2%;
   padding-bottom:4%;
+  color:white;
 }
 footer {
   background-color: #999999;
