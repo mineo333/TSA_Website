@@ -22,12 +22,11 @@ header#navbar {
 }
 #background-attribution {
   position:absolute;
-  top:0px;
+  bottom:0px;
   right:0px;
   font-size:0.7em;	
 }
 main {
-  position: relative;
   color: white;
 }
 main article {
