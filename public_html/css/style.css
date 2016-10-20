@@ -27,6 +27,7 @@ header#navbar {
   font-size:0.7em;	
 }
 main {
+  position: relative;
   color: white;
 }
 main article {
