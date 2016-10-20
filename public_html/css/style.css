@@ -4,9 +4,7 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  background-image:url("http://www.nasa.gov/images/content/602857main_pia14293-amended-43_946-710.jpg");
-  background-size:100%;
-  background-attachment:fixed;
+  background: black url("http://www.nasa.gov/images/content/602857main_pia14293-amended-43_946-710.jpg") 100% no-repeat fixed;
 }
 div#container {
   margin: 0;
@@ -24,7 +22,6 @@ main article {
   color:white;
 }
 footer {
-  background-color: black;
   color: white;
   width: 100%;
   text-align:center;
