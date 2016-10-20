@@ -6,6 +6,7 @@ body {
   padding: 0;
   background-image:url("http://www.nasa.gov/images/content/602857main_pia14293-amended-43_946-710.jpg");
   background-size:100%;
+  background-attachment:fixed;
 }
 div#container {
   margin: 0;
