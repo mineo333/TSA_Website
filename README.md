@@ -10,7 +10,7 @@ ALSO VERY IMPORTANT: STOP DELETING THE PHP CODE! PHP is server side code, so you
 View the site at: https://mission-to-mars.000webhostapp.com/ This IS NOT updated automatically, so ask Darin to and he'll get it done within a minute.
 
 # Plans
-* Make a dropdown type of menu
+* Navbar
 * Interactive timeline  (javascript)
 * Research the mission to mars
 
