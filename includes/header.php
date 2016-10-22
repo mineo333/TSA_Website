@@ -1,5 +1,5 @@
 <header id="navbar">
-<img src="/images/mars.png" width="150" id="bannerImage">
+<img src="/images/mars.png" width="150" id="bannerImage" alt="Mars (By NASA, ESA, and The Hubble Heritage Team (STScI/AURA) [Public domain], via Wikimedia Commons)">
 <nav>
     <h1>Mission To Mars</h1>
     <ul>
