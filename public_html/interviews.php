@@ -23,9 +23,9 @@
 	   <?php include("../includes/header.php"); ?>
 	   <main>
 		   <article>
-			<header>
+			<h2>
 				Interviews
-			</header>
+			</h2>
 			This will be the interviews page.
 		   </article>
 	   </main>

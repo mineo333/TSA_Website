@@ -23,9 +23,9 @@
 	   <?php include("../includes/header.php"); ?>
 	   <main>
 		   <article>
-			<header>
+			<h2>
 				The requested URL "<?php echo $_SERVER["REQUEST_URI"]; ?>" was not found on this server
-			</header>
+			</h2>
 			Don't stop looking, though! NASA scientists <a href="https://www.nasa.gov/press-release/nasa-confirms-evidence-that-liquid-water-flows-on-today-s-mars">found water on Mars</a> after <i>years</i> of searching!
 			<br><img src="http://www.nasa.gov/sites/default/files/thumbnails/image/15-195_perspective_2.jpg" style="width:100%;">
 		   </article>

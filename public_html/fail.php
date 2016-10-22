@@ -23,9 +23,9 @@
 	   <?php include("../includes/header.php"); ?>
 	   <main>
 		   <article>
-			<header>
+			<h2>
 				What if we fail?
-			</header>
+			</h2>
 			This will be the pros and cons of failing to explore space.
 		   </article>
 	   </main>

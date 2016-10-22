@@ -23,9 +23,9 @@
 	   <?php include("../includes/header.php"); ?>
 	   <main>
 		   <article>
-			<header>
+			<h2>
 				Evolution of Space Vehicles
-			</header>
+			</h2>
 			This will be the space vehicle page.
 		   </article>
 	   </main>
