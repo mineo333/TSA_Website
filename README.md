@@ -8,7 +8,7 @@ If you are just adding a few lines that will not need any debugging, you can com
 ALSO VERY IMPORTANT: STOP DELETING THE PHP CODE! PHP is server side code, so you can only see garbage if you are viewing the files locally. You can only see the PHP code working at the server below.
 
 View the site at: https://mission-to-mars.000webhostapp.com/ This IS NOT updated automatically, so ask Darin to and he'll get it done within a minute.
-# As you are developing, make sure that you are using correct markup. [Check Here](https://validator.w3.org/unicorn/check?ucn_uri=mission-to-mars.000webhostapp.com&tests=valnu&tests=css-validator&warning=1&profile=css3&usermedium=all&ucn_task=custom#)
+### As you are developing, make sure that you are using correct markup. [Check Here](https://validator.w3.org/unicorn/check?ucn_uri=mission-to-mars.000webhostapp.com&tests=valnu&tests=css-validator&warning=1&profile=css3&usermedium=all&ucn_task=custom#)
 
 # Plans
 * Research THIS IS PRIORITY NUMBER ONE. STOP CODING, DO RESEARCH!
