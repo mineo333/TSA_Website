@@ -7,8 +7,8 @@ If you are just adding a few lines that will not need any debugging, you can com
 
 ALSO VERY IMPORTANT: STOP DELETING THE PHP CODE! PHP is server side code, so you can only see garbage if you are viewing the files locally. You can only see the PHP code working at the server below.
 
-View the site at: <a href="https://mission-to-mars.000webhostapp.com/" target="_blank">https://mission-to-mars.000webhostapp.com/</a> This IS NOT updated automatically, so ask Darin to and he'll get it done within a minute.
-### As you are developing, make sure that you are using correct markup. <a href="https://validator.w3.org/unicorn/check?ucn_uri=mission-to-mars.000webhostapp.com&tests=valnu&tests=css-validator&warning=1&profile=css3&usermedium=all&ucn_task=custom#" target="_blank">Check Here</a>
+View the site at: https://mission-to-mars.000webhostapp.com/ This IS NOT updated automatically, so ask Darin to and he'll get it done within a minute.
+### As you are developing, make sure that you are using correct markup. [Check Here](https://validator.w3.org/unicorn/check?ucn_uri=mission-to-mars.000webhostapp.com&tests=valnu&tests=css-validator&warning=1&profile=css3&usermedium=all&ucn_task=custom#)
 
 # Plans
 * Research THIS IS PRIORITY NUMBER ONE. STOP CODING, DO RESEARCH!
@@ -17,5 +17,5 @@ View the site at: <a href="https://mission-to-mars.000webhostapp.com/" target="_
 
 # Documents
 
-* <a href="https://drive.google.com/open?id=0B0SxAlF2z1IqdHF0YmVsbl9Db3c" target="_blank">Design Brief</a>
-* <a href="https://drive.google.com/open?id=0B0SxAlF2z1IqZC01aVBUZUJFS3c" target="_blank">Procedures/Directions</a>
+* [Design Brief](https://drive.google.com/open?id=0B0SxAlF2z1IqdHF0YmVsbl9Db3c)
+* [Procedures/Directions](https://drive.google.com/open?id=0B0SxAlF2z1IqZC01aVBUZUJFS3c)
