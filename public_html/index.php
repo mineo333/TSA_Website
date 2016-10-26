@@ -24,9 +24,17 @@
 	   <main>
 		   <article>
 			<h2>
-				Mission To Mars
+				Mission To Mars - Announcements
 			</h2>
-			This will be the home page.
+			<p>We'll be putting announcements here as we need them.
+			<p>PLEASE DO RESEARCH. NO MORE CODING UNTIL THIS IS FINISHED
+			<p>To Do List:
+			
+			<ul>
+				<li>Research</li>
+				<li>Style the banner (does not display properly on some wide screens, and also needs to be responsive)</li>
+				<li>Create system for displaying timeline events from JSON file (this will make adding and editing events easier)</li>
+			</ul>
 		   </article>
 	   </main>
 	   <?php include("../includes/footer.php"); ?>
