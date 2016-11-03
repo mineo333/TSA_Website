@@ -16,20 +16,20 @@
 		-->
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
-		<?php include("../includes/head.php"); ?>
+		<?php include("../../includes/head.php"); ?>
     </head>
     <body>
 	<div id="container">
-	   <?php include("../includes/header.php"); ?>
+	   <?php include("../../includes/header.php"); ?>
 	   <main>
 		   <article>
 			<h2>
-				Career Fields
+				What if we fail?
 			</h2>
-			This will be the career fields page.
+			This will be the pros and cons of failing to explore space.
 		   </article>
 	   </main>
-	   <?php include("../includes/footer.php"); ?>
+	   <?php include("../../includes/footer.php"); ?>
 	</div>
         
     </body>
