@@ -24,6 +24,7 @@
 				$.get("data.txt", function(data)
 				{
 					alert(data);
+					alert(data[0]);
 					$.each(data, function(index, event)
 					{
 						alert(index);
