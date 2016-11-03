@@ -17,6 +17,20 @@
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
 		<?php include("../../includes/head.php"); ?>
+		<script type="text/javascript">
+		<!--
+			$(function()
+			{
+				$.get("data.txt", function(data)
+				{
+					$.each(data, function(index, event)
+					{
+						$("#eventTable tr:last").after("<tr><td>" + event.name + "</td><td>" + event.date + "</td><td>" + event.description + "</td></tr>");
+					});
+				});
+			});
+		//-->
+		</script>
     </head>
     <body>
 	<div id="container">
@@ -27,6 +41,13 @@
 				Timeline
 			</h2>
 			This will be the interactive timeline.
+			<table style="width:100%;" id="eventTable">
+				<tr>
+					<td><b>Event Name</b></td>
+					<td><b>Event Date</b></td>
+					<td><b>Event Description</b></td>
+				</tr>
+			</table>
 		   </article>
 	   </main>
 	   <?php include("../../includes/footer.php"); ?>
