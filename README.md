@@ -13,6 +13,7 @@ View the site at: https://mission-to-mars.000webhostapp.com/ This IS NOT updated
 # Plans
 * Research THIS IS PRIORITY NUMBER ONE. STOP CODING, DO RESEARCH!
 * Styling navbar
+* MAYBE dropdown menu (Check site for more detail)
 * Creating timeline (I'd like it to be dynamic, and pull data from a JSON file, we'll look into this later)
 
 # Documents
