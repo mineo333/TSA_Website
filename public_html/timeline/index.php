@@ -26,6 +26,7 @@
 					alert(data);
 					$.each(data, function(index, event)
 					{
+						alert(index);
 						alert(event);
 						$("#eventTable tr:last").after("<tr><td>" + event.name + "</td><td>" + event.date + "</td><td>" + event.description + "</td></tr>");
 					});
