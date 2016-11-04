@@ -29,7 +29,7 @@
 						alert(event);
 						$("#eventTable tr:last").after("<tr><td>" + event.name + "</td><td>" + event.date + "</td><td>" + event.description + "</td></tr>");
 					});
-				});
+				}, "JSON");
 			});
 		//-->
 		</script>
