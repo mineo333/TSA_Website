@@ -21,7 +21,7 @@
 		<!--
 			$(function()
 			{
-				$.get("data.json", function(data)
+				$.get("https://mission-to-mars.000webhostapp.com/timeline/data.json", function(data)
 				{
 					$.each(data, function(index, event)
 					{
