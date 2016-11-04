@@ -30,6 +30,28 @@
 		"description":"INSERT DESCRIPTION HERE"
 	},
 	{
-		"name":"Curiosity lands on Mars","date":"2012-06-06","description":"INSERT DESCRIPTION HERE"},{"name":"First spacecraft to orbit a comet","date":"2014-06-06","description":"INSERT DESCRIPTION HERE"},{"name":"First spacecraft to land on a comet","date":"2014-11-12","description":"INSERT DESCRIPTION HERE"},{"name":"New Horizons arrives at Pluto","date":"2015-07-14","description":"INSERT DESCRIPTION HERE"},{"name":"Juno arrives at Jupiter","date":"2016-07-04","description":"INSERT DESCRIPTION HERE"
+		"name":"Curiosity lands on Mars",
+		"date":"2012-06-06",
+		"description":"INSERT DESCRIPTION HERE"
+	},
+	{
+		"name":"First spacecraft to orbit a comet",
+		"date":"2014-06-06",
+		"description":"INSERT DESCRIPTION HERE"
+	},
+	{
+		"name":"First spacecraft to land on a comet",
+		"date":"2014-11-12",
+		"description":"INSERT DESCRIPTION HERE"
+	},
+	{
+		"name":"New Horizons arrives at Pluto",
+		"date":"2015-07-14",
+		"description":"INSERT DESCRIPTION HERE"
+	},
+	{
+		"name":"Juno arrives at Jupiter",
+		"date":"2016-07-04",
+		"description":"INSERT DESCRIPTION HERE"
 	}
 ]
