@@ -21,10 +21,8 @@
 		<!--
 			$(function()
 			{
-				$.get("data.txt", function(data)
+				$.get("data.json", function(data)
 				{
-					alert(data);
-					alert(data[0]);
 					$.each(data, function(index, event)
 					{
 						alert(index);
