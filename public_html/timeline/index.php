@@ -19,14 +19,32 @@
 		<?php include("../../includes/head.php"); ?>
 		<script type="text/javascript">
 		<!--
+			var dateNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+			var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 			$(function()
 			{
-				$.get( "data.json", function( data ) {
+				$("div#timeline-line")
+				$.get("data.json", function(data) {
 					$.each(data, function(index, event)
 					{
-						$("#eventTable tr:last").after("<tr><td>" + event.name + "</td><td>" + event.date + "</td><td>" + event.description + "</td></tr>");
+						var name = event.name;
+						var date = new Date(event.date);
+						var dateString = dateNames[date.getDay()] + ", " + monthNames[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
+						var description = event.description;
+						var displayString = "<li id=\"" + index + "\"><h4>" + name + "</h4><h5>" + dateString + "</h5><p>" + description + "</li>";
+						$("#timeline-events").append(displayString);
+						var displayString = "<li><a href=\"#\" data-event-id=\"" + index + "\">" + dateString + "</a></li>";
+						$("#timeline-dates").append(displayString);
 					});
-				  
+					$("ul#timeline-events li#0").show().addClass("current");
+					$("ul#timeline-dates li a").click(function()
+					{
+						var thisEvent = $(this).attr("data-event-id");
+						$("ul#timeline-events li.current").removeClass("current").fadeOut(function()
+						{
+							$("ul#timeline-events li#" + thisEvent).addClass("current").fadeIn();
+						});
+					});
 				});
 			});
 		//-->
@@ -38,18 +56,14 @@
 	   <main>
 		   <article>
 			<h2>
-				Timeline
+				The Privatization of the Space Program and the United States's Space Program
 			</h2>
-			<p>This will be the interactive timeline. I've managed to pull the data from file "data.json". The data is displayed here. Doing this is half the work; the rest is just a matter of how we're going to display the data.
-			<p>Funny story: I've spent hours working on this, and I was completely baffled as to why it didn't work. I've done this kind of work before (in my Hangman AI), and this was literally the <i>exact same thing!</i> I just figured it out today, and you know what the problem was? It was a single "." that shouldn't have been there in the data file. I had spent hours debugging the main timeline/index.php file, when I didn't even think to check the data file. I probably made that mistake while I was typing out the data file at our meeting last Thursday.
-			<p>Moral of the story: don't just check the main parts of a project when it fails. The small parts, that you "know" won't fail, might just have a little mistake in them that causes your whole project to screw up.
-			<table style="width:100%;" id="eventTable">
-				<tr>
-					<td><b>Event Name</b></td>
-					<td><b>Event Date</b></td>
-					<td><b>Event Description</b></td>
-				</tr>
-			</table>
+			<div id="timeline">
+				<ul id="timeline-dates">
+				</ul>
+				<ul id="timeline-events">
+				</ul>				
+			</div>
 		   </article>
 	   </main>
 	   <?php include("../../includes/footer.php"); ?>

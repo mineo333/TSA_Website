@@ -57,7 +57,7 @@ nav {
 }
 
 nav ul {
-    list-style-type:none;
+    list-style:none;
     padding:0;
     margin:0;
     margin-left:inherit;
@@ -84,4 +84,18 @@ nav ul li a:hover {
 }
 nav ul li.current {
     background-color: #3c3c3c;
+}
+div#timeline ul {
+	list-style:none;
+	color:white;
+}
+ul#timeline-dates a {
+	text-decoration:none;
+	color:white;
+}
+ul#timeline-dates li {
+	display:inline-block;
+}
+ul#timeline-events li {
+	display:none;
 }
