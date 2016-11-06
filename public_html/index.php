@@ -68,7 +68,7 @@
 			</ul>
 			<p>To Do List:
 			
-			<ul>
+			<ul style="list-style-type: '&#9744;';">
 				<li>Research</li>
 				<li>Style the banner (does not display properly on some wide screens, and also needs to be responsive)</li>
 				<li>Create system for displaying timeline events from JSON file (this will make adding and editing events easier)</li>
