@@ -28,9 +28,6 @@ body .container {
   bottom: 0px;
   padding: 3px;
 }
-#bannerTitle {
-    display:inline;
-}
 div#timeline ul {
 	list-style:none;
 	color:white;
