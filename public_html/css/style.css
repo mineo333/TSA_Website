@@ -20,8 +20,9 @@ body {
 body .container {
 	padding-top: 60px;
 }
-footer {
+.footer {
   width: 100%;
+  height: 60px;
   text-align:center;
   position: absolute;
   bottom: 0px;
