@@ -17,6 +17,7 @@
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
 		<?php include("../../includes/head.php"); ?>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<script type="text/javascript">
 		<!--
 			var dateNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -31,19 +32,19 @@
 						var date = new Date(event.date);
 						var dateString = dateNames[date.getDay()] + ", " + monthNames[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
 						var description = event.description;
-						var displayString = "<li id=\"" + index + "\"><h4>" + name + "</h4><h5>" + dateString + "</h5><p>" + description + "</li>";
-						$("#timeline-events").append(displayString);
-						var displayString = "<li><a href=\"#\" data-event-id=\"" + index + "\">" + dateString + "</a></li>";
-						$("#timeline-dates").append(displayString);
-					});
-					$("ul#timeline-events li#0").show().addClass("current");
-					$("ul#timeline-dates li a").click(function()
-					{
-						var thisEvent = $(this).attr("data-event-id");
-						$("ul#timeline-events li.current").removeClass("current").fadeOut(function()
+						var displayString = "<li class=\"timeline-event";
+						if (index % 2 == 1)
 						{
-							$("ul#timeline-events li#" + thisEvent).addClass("current").fadeIn();
-						});
+							displayString += "-inverted";
+						}
+						displayString += "\"><div class=\"timeline-badge\"><a><i class=\"fa fa-rocket\"></i></a></div><div class=\"timeline-panel\"><div class=\"timeline-heading\"><h4 class=\"timeline-title\">"
+						displayString += name;
+						displayString += "</h4><p><small class=\"text-muted\"><i class=\"glyphicon glyphicon-time\"</i> ";
+						displayString += dateString;
+						displayString += "</small></div><div class=\"timeline-body\"><p>";
+						displayString += description;
+						displayString += "</div></div>"
+						$(".timeline").append(displayString);
 					});
 				});
 			});
@@ -58,12 +59,8 @@
 			<h2>
 				The Privatization of the Space Program and the United States's Space Program
 			</h2>
-			<div id="timeline">
-				<ul id="timeline-dates">
-				</ul>
-				<ul id="timeline-events">
-				</ul>				
-			</div>
+			<ul class="timeline">
+			</ul>
 		   </article>
 	   </main>
 	   <?php include("../../includes/footer.php"); ?>
