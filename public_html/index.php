@@ -22,7 +22,7 @@
 	<div class="container">
 		<div class="alert alert-info fade in">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			<strong>Do you like the new look?</strong> Please share your thoughts at <a href="https://github.com/lighthouse64/TSA_Website/issues/23">the GitHub Repository</a>
+			<strong>Do you like the new look?</strong> Please share your thoughts at <a href="https://github.com/lighthouse64/TSA_Website/issues/23" target="_blank">the GitHub Repository</a>
 		</div>
 		<div class="alert alert-info fade in">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
