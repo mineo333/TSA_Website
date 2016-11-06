@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
 		<!-- 
@@ -16,6 +16,14 @@
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
 		<?php include("../includes/head.php"); ?>
+		<style type="text/css">
+			ul#todo li:before {
+				content: "\2610";
+			}
+			ul#todo li.done:before {
+				content: "\2611";
+			}
+		</style>
     </head>
     <body>
 	<?php include("../includes/header.php"); ?>
@@ -68,9 +76,9 @@
 			</ul>
 			<p>To Do List:
 			
-			<ul style="list-style-type: '&#9744;';">
+			<ul style="list-style-type: none; text-indent:-1.2em;" id="todo">
 				<li>Research</li>
-				<li>Style the banner (does not display properly on some wide screens, and also needs to be responsive)</li>
+				<li class="done">Style the banner (does not display properly on some wide screens, and also needs to be responsive)</li>
 				<li>Create system for displaying timeline events from JSON file (this will make adding and editing events easier)</li>
 			</ul>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero enim, scelerisque sit amet diam at, gravida vulputate mi. Vestibulum in dapibus neque, nec maximus sem. Nulla facilisi. Sed aliquet efficitur orci. Vestibulum a nisi ante. Morbi sit amet sollicitudin nibh. Nunc scelerisque augue erat, ac iaculis turpis venenatis at. Mauris aliquam felis nisi. Aenean vestibulum facilisis est, eget vehicula nibh sagittis non. Nulla risus nunc, congue et commodo eget, semper in leo. Aliquam semper at ligula iaculis gravida. 
