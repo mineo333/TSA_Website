@@ -1,12 +1,14 @@
-html, body {
-  height: 100%;
+html {
+  min-height: 100%;
+  position: relative;
 }
 body {
   margin: 0;
+  margin-bottom: 60px;
   padding: 0;
   background-color: black;
   background-image: url("http://www.nasa.gov/images/content/602857main_pia14293-amended-43_946-710.jpg");
-  background-size: 100% ;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 0% -5%;
