@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
 		<!-- 
 		*******************************
@@ -15,7 +15,7 @@
 		-->
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
-		<?php include("../includes/head.php"); ?>
+<?php include("../includes/head.php"); ?>
 		<style type="text/css">
 			ul#todo li:before {
 				content: "\2610";
@@ -26,11 +26,11 @@
 		</style>
     </head>
     <body>
-	<?php include("../includes/header.php"); ?>
+<?php include("../includes/header.php"); ?>
 	<div class="container">
 		<div class="alert alert-info fade in">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			<strong>Do you like the new look?</strong> Please share your thoughts at <a href="https://github.com/lighthouse64/TSA_Website/issues/23" target="_blank">the GitHub Repository</a>
+			<strong>Like the new look?</strong> Please share your thoughts at <a href="https://github.com/lighthouse64/TSA_Website/issues/23" target="_blank">the GitHub Repository</a>
 		</div>
 		<div class="alert alert-info fade in">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
@@ -45,8 +45,8 @@
 			<p>PLEASE DO RESEARCH. NO MORE CODING UNTIL THIS IS FINISHED
 			<p>We might need a dropdown menu for certain things. For example, the main "career field" page would link to
 				the other main articles for each individual career fields. Similar idea for interviews.
+			<h4>PROPOSED SITEMAP (BUILD AROUND THIS)</h4>
 			<ul>
-				<h4>PROPOSED SITEMAP (BUILD AROUND THIS)</h4>
 				<li>Home</li>
 				<li>Privatization</li>
 				<li>Timeline</li>
@@ -102,6 +102,6 @@
 			<p>Aliquam erat volutpat. Ut tincidunt ex congue porttitor cursus. Sed vel dui nec enim sagittis tristique. Nunc nec ex ex. Fusce maximus turpis nunc, eu bibendum nisi finibus eget. Duis in mollis tortor. Cras maximus, justo sit amet pulvinar semper, eros libero porta mi, sed luctus leo risus sit amet risus. Suspendisse blandit orci nulla, nec rutrum orci ultrices quis. In et libero id turpis lobortis posuere porta sed erat. Duis ornare nunc sit amet ligula rhoncus, in malesuada enim mollis. Mauris sit amet scelerisque quam. Duis sed enim odio. Donec luctus posuere porta. Aenean quis mauris in eros semper malesuada non fermentum enim. 
 			<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut condimentum, turpis a tempus iaculis, ligula magna maximus lacus, non sodales libero metus eu ante. Nullam vitae enim vestibulum, scelerisque est et, ultricies diam. Nulla eget pellentesque nulla. Fusce sit amet efficitur erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut non justo arcu. Donec nec tincidunt purus. Phasellus augue sapien, venenatis sit amet sodales ut, vulputate ac nunc. Sed semper viverra orci eu iaculis. Cras nulla tellus, molestie ut lorem sed, consectetur vestibulum lectus. Donec risus nunc, commodo sed sapien ut, vehicula feugiat neque. Nulla auctor quam at quam porta scelerisque. Nulla porttitor venenatis magna, a dapibus eros hendrerit sit amet. Donec ac neque pellentesque, volutpat ex vitae, commodo orci.	
 	</div>
-    <?php include("../includes/footer.php"); ?>
+<?php include("../includes/footer.php"); ?>
     </body>
 </html>
