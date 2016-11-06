@@ -1,15 +1,15 @@
 h1 {
   font-family:Arial; 
 }
-nav h1 {
+.navbar-brand {
   font-family: 'Russo One', sans-serif;
   font-style: italic;
-  font-size: 3em;
+  text-decoration: none;
 }
 main article {
   font-size: 1em;
 }
-main article h2 {
+.page-header h2 {
   font-size:1.4em;
   margin:0;
 }
@@ -17,13 +17,6 @@ footer {
   font-family: 'Trebuchet MS';
   font-size: 0.8em;
 }
-nav ul li {
-  font-family: Arial;
-}
 #background-attribution {
   font-size:0.7em;
-}
-
-article{
- font-family:segoe ui symbol;
 }
