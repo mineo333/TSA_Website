@@ -22,6 +22,7 @@
 			.container {
 				background-color:black;
 				color:white;
+				margin-top: 20px;
 			}
 			.timeline {
 				list-style: none;
