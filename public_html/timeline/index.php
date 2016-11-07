@@ -166,7 +166,7 @@
 						{
 							displayString += " inverted";
 						}
-						displayString += "\"><div class=\"timeline-badge\"><a><i class=\"fa fa-rocket\" aria-hidden=\"true\"></i></a></div><div class=\"timeline-panel\"><div class=\"timeline-heading\"><h4 class=\"timeline-title\">"
+						displayString += "\"><div class=\"timeline-badge\"><i class=\"fa fa-rocket\" aria-hidden=\"true\"></i></div><div class=\"timeline-panel\"><div class=\"timeline-heading\"><h4 class=\"timeline-title\">"
 						displayString += name;
 						displayString += "</h4><p><small class=\"text-muted\"><i class=\"glyphicon glyphicon-time\" aria-hidden=\"true\"></i> ";
 						displayString += dateString;
