@@ -99,16 +99,16 @@
 				border-bottom-right-radius: 50%;
 				border-bottom-left-radius: 50%;
 			}
-			.timeline > li.timeline-inverted > .timeline-panel {
+			.timeline > li.inverted > .timeline-panel {
 				float: right;
 			}
-			.timeline > li.timeline-inverted > .timeline-panel:before {
+			.timeline > li.inverted > .timeline-panel:before {
 				border-left-width: 0;
 				border-right-width: 15px;
 				left: -15px;
 				right: auto;
 			}
-			.timeline > li.timeline-inverted > .timeline-panel:after {
+			.timeline > li.inverted > .timeline-panel:after {
 				border-left-width: 0;
 				border-right-width: 14px;
 				left: -14px;
