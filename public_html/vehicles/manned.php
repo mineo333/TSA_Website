@@ -23,10 +23,10 @@
 	<div class="container">
 		<div class="page-header">
 			<h2>
-				Content Title
+				Manned Space Vehicles
 			</h2>
 		</div>
-		<p>Content
+		<p>This will be the manned space vehicle page
 	</div>
    <?php include("../../includes/footer.php"); ?> 
     </body>
