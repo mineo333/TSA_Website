@@ -19,18 +19,15 @@
 		<?php include("../../includes/head.php"); ?>
     </head>
     <body>
-	<div id="container">
-	   <?php include("../../includes/header.php"); ?>
-	   <main>
-		   <article>
-			<header>
+	<?php include("../../includes/header.php"); ?>
+	<div class="container">
+		<div class="page-header">
+			<h2>
 				Content Title
-			</header>
-			Content
-		   </article>
-	   </main>
-	   <?php include("../../includes/footer.php"); ?>
+			</h2>
+		</div>
+		<p>Content
 	</div>
-        
+    <?php include("../../includes/footer.php"); ?> 
     </body>
 </html>

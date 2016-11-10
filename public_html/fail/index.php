@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
 		<!-- 
 		*******************************
@@ -19,18 +19,15 @@
 		<?php include("../../includes/head.php"); ?>
     </head>
     <body>
-	<div id="container">
-	   <?php include("../../includes/header.php"); ?>
-	   <main>
-		   <article>
+	<?php include("../../includes/header.php"); ?>
+	<div class="container">
+		<div class="page-header">
 			<h2>
 				What if we fail?
 			</h2>
-			This will be the pros and cons of failing to explore space.
-		   </article>
-	   </main>
-	   <?php include("../../includes/footer.php"); ?>
+		</div>
+		<p>This will be the pros and cons of failing to explore space.
 	</div>
-        
+	<?php include("../../includes/footer.php"); ?>    
     </body>
 </html>

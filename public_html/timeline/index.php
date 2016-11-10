@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
 		<!-- 
 		*******************************
@@ -51,23 +51,20 @@
 		</script>
     </head>
     <body>
-	<div id="container">
-	   <?php include("../../includes/header.php"); ?>
-	   <main>
-		   <article>
+	<?php include("../../includes/header.php"); ?>
+	<div class="container">
+		<div class="page-header">
 			<h2>
 				The Privatization of the Space Program and the United States's Space Program
 			</h2>
-			<div id="timeline">
-				<ul id="timeline-dates">
-				</ul>
-				<ul id="timeline-events">
-				</ul>				
-			</div>
-		   </article>
-	   </main>
-	   <?php include("../../includes/footer.php"); ?>
+		</div>
+		<div id="timeline">
+			<ul id="timeline-dates">
+			</ul>
+			<ul id="timeline-events">
+			</ul>				
+		</div>
 	</div>
-        
+	<?php include("../../includes/footer.php"); ?>    
     </body>
 </html>
