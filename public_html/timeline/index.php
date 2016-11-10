@@ -20,8 +20,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<style type="text/css">
 			.container {
-				background-color:black;
-				color:white;
+				color: white;
 				margin-top: 20px;
 			}
 			.timeline {
