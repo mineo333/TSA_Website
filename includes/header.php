@@ -34,7 +34,7 @@
 					</li>
 					<li class="<?php if (strpos($_SERVER["PHP_SELF"], "/fail/") !== false){echo "active";} ?>"><a href="/fail">What if we fail?</a></li>
 					<li class="dropdown <?php if (strpos($_SERVER["PHP_SELF"], "/interviews/") !== false){echo "active";} ?>">
-						<a href="/interviews">Interviews
+						<a href="/interviews" class="dropdown-toggle" data-toggle="dropdown">Interviews
 						<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="/interviews/one.php" class="<?php if ($_SERVER["PHP_SELF"] == "/interviews/one.php"){echo "active";} ?>">Interview One</a></li>
