@@ -23,10 +23,10 @@
 	<div class="container">
 		<div class="page-header">
 			<h2>
-				Content Title
+				Interview One
 			</h2>
 		</div>
-		<p>Content
+		<p>This will be the first interview
 	</div>
    <?php include("../../includes/footer.php"); ?> 
     </body>

@@ -23,10 +23,10 @@
 	<div class="container">
 		<div class="page-header">
 			<h2>
-				Content Title
+				Career Field Three
 			</h2>
 		</div>
-		<p>Content
+		<p>This will be the third career field
 	</div>
    <?php include("../../includes/footer.php"); ?> 
     </body>
