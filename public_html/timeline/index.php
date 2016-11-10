@@ -160,7 +160,8 @@
 						var name = event.name;
 						var date = new Date(event.date);
 						var dateString = dateNames[date.getDay()] + ", " + monthNames[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
-						var description = event.description;
+						var descriptionShort = event.descriptionShort;
+						var descriptionFull = event.descriptionFull;
 						var displayString = "<li class=\"timeline-event";
 						if (index % 2 == 1)
 						{
@@ -171,8 +172,16 @@
 						displayString += "</h4><p><small class=\"text-muted\"><i class=\"glyphicon glyphicon-time\" aria-hidden=\"true\"></i> ";
 						displayString += dateString;
 						displayString += "</small></div><div class=\"timeline-body\"><p>";
-						displayString += description;
-						displayString += "</div></div>"
+						displayString += descriptionShort;
+						displayString += "</div><div class=\"timeline-event-full-description\"><button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#full-description-";
+						displayString += index;
+						displayString += "\">READ MORE</button><div id=\"full-description-";
+						displayString += index;
+						displayString += "\" class=\"modal fade\" role=\"dialog\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button><h4 class=\"modal-title\">";
+						displayString += name;
+						displayString += "</h4></div><div class=\"modal-body\"><p>";
+						displayString += descriptionFull;
+						displayString += "</div><div class=\"modal-footer\"><button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button></div></div></div></div></div></div>";
 						$(".timeline").append(displayString);
 					});
 				});
@@ -194,3 +203,22 @@
 	<?php include("../../includes/footer.php"); ?>    
     </body>
 </html>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
