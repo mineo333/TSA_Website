@@ -70,8 +70,6 @@
 			
 			<ul style="list-style-type: none; text-indent:-1.2em;" id="todo">
 				<li>Research</li>
-				<li class="done">Style the banner (does not display properly on some wide screens, and also needs to be responsive)</li>
-				<li>Create system for displaying timeline events from JSON file (this will make adding and editing events easier)</li>
 			</ul>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero enim, scelerisque sit amet diam at, gravida vulputate mi. Vestibulum in dapibus neque, nec maximus sem. Nulla facilisi. Sed aliquet efficitur orci. Vestibulum a nisi ante. Morbi sit amet sollicitudin nibh. Nunc scelerisque augue erat, ac iaculis turpis venenatis at. Mauris aliquam felis nisi. Aenean vestibulum facilisis est, eget vehicula nibh sagittis non. Nulla risus nunc, congue et commodo eget, semper in leo. Aliquam semper at ligula iaculis gravida. </p>
 			<p>Nulla euismod sodales nisl non cursus. Morbi at commodo diam, eget eleifend nibh. Pellentesque vel leo id arcu blandit porta. Vivamus luctus eros et mauris euismod fermentum. Nulla luctus nisi facilisis, ultricies orci ac, varius nunc. Praesent eget tellus at ligula dignissim pulvinar. Sed sit amet purus commodo, semper ipsum ac, accumsan ligula. Fusce non dapibus dolor, sit amet volutpat felis. Praesent congue nisi nisl, quis ornare libero accumsan non. Vestibulum rutrum eu mi vel tempor. Nulla ac vulputate enim, quis porta sem. Mauris iaculis justo tincidunt, vestibulum ex ac, pellentesque nisl. Mauris faucibus dolor vitae quam dignissim, eu pharetra risus malesuada. Sed et pulvinar nibh, ut sodales sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ultricies nibh at dolor rutrum semper. </p>
