@@ -6,11 +6,10 @@
 		*
 		*  Made for Technology 
 		*  Student Association
-		*
-		*
+		*		
 		*  By Ethan James, Ryan Kim,
-		*  Darin Mao, Sharad Khanna,
-		*  Jason Kim, and Ben Miller.
+		*  Darin Mao, Jason Kim,
+		*  and Ben Miller.
 		*
 		*******************************
 		-->
