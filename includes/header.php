@@ -14,7 +14,7 @@
 					<li class="<?php if (strpos($_SERVER["PHP_SELF"], "/privatization/") !== false){echo "active";} ?>"><a href="/privatization">Privatization</a></li>
 					<li class="<?php if (strpos($_SERVER["PHP_SELF"], "/timeline/") !== false){echo "active";} ?>"><a href="/timeline">Timeline</a></li>
 					<li class="dropdown <?php if (strpos($_SERVER["PHP_SELF"], "/vehicles/") !== false){echo "active";} ?>">
-						<a href="/vehicles" class="dropdown-toggle" data-toggle="dropdown">Space Vehicles
+						<a href="/vehicles" class="dropdown-toggle" data-toggle="dropdown">Evolution of Space Vehicles
 						<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="/vehicles/manned.php" class="<?php if ($_SERVER["PHP_SELF"] == "/vehicles/manned.php"){echo "active";} ?>">Manned</a></li>
