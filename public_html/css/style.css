@@ -44,7 +44,6 @@ ul#timeline-dates li {
 ul#timeline-events li {
 	display:none;
 }
-.navbar-fixed-top-noborder {
-	top:0;
+.style-noborder {
 	border-width: 0 0 0px;
 }
