@@ -26,11 +26,16 @@
 			</h2>
 		</div>
 		<p>
-		Ever since the launch of Sputnik, unmanned space vehicles have been constantly evolving.  Here is a page with some major changes that have happened over time.	
+		Ever since the launch of Sputnik, unmanned space vehicles have constantly been evolving.  This page outlines some major changes that have happened over time.	
 			<p>
-			<div class="panel-heading">Sputnik</div>
-			<div class="panel-body">
-			<img class="img-responsive" src="http://nssdc.gsfc.nasa.gov/planetary/image/sputnik_asm.jpg" />
+			<div class="panel panel-default">
+				<div class="panel-heading">Sputnik</div>
+				<div class="panel-body">
+					<figure>
+						<img class="img-responsive" src="http://nssdc.gsfc.nasa.gov/planetary/image/sputnik_asm.jpg">
+						<figcaption> An image of the Sputnik 1 spacecraft</figcaption>
+					</figure>
+				</div>
 			</div>
 			</p>
 		</p>
