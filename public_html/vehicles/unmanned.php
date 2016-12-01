@@ -55,6 +55,42 @@
 					</figure>
 				</div>
 			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">Luna 16</div>
+				<div class="panel-body">
+					<figure>
+						<img class="img-responsive" style="height:50%; width:50%;" src="http://nssdc.gsfc.nasa.gov/image/spacecraft/luna-16.jpg" />
+						<figcaption>An image of Luna 16 flying in space</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">Hubble Telescope</div>
+				<div class="panel-body">
+					<figure>
+						<img class="img-responsive" style="height:25%; width:25%;" src="https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_components_diagram.png" />
+						<figcaption>A diagram of the Hubble Telescope</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">Hubble Telescope</div>
+				<div class="panel-body">
+					<figure>
+						<img class="img-responsive" style="height:25%; width:25%;" src="https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_components_diagram.png" />
+						<figcaption>A diagram of the Hubble Telescope</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">Curiosity Rover</div>
+				<div class="panel-body">
+					<figure>
+						<img class="img-responsive" style="height:25%; width:25%;" src="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia19920_bigsky-selfie.jpg?itok=l8hfwQde" />
+						<figcaption>A picture of the Curiosity Rover on mars</figcaption>
+					</figure>
+				</div>
+			</div>
 			</p>
 		</p>
 	<p><h2>Cited Sources</h2></p>
