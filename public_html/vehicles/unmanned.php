@@ -55,7 +55,7 @@
 				<div class="panel-heading">Explorer I</div>
 				<div class="panel-body">
 					<figure>
-						<img class="img-responsive" style="height:50%; width:50%;" src="http://history.nasa.gov/sputnik/phot2.gif" />
+						<img class="img-responsive" style="height:25%; width:25%;" src="http://history.nasa.gov/sputnik/phot2.gif" />
 						<figcaption>An image of explorer 1 flying in space</figcaption>
 					</figure>
 				</div>
@@ -77,25 +77,24 @@
 						<figcaption>An image of Luna 16 flying in space</figcaption>
 					</figure>
 				</div>
-			</div>
 			<div class="panel panel-default">
 				<div class="panel-heading">Hubble Telescope</div>
 				<div class="panel-body">
 					<figure>
-						<img class="img-responsive" style="height:25%; width:25%;" src="https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_components_diagram.png" />
+						<img class="img-responsive" style="height:50%; width:50%;" src="https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_components_diagram.png" />
 						<figcaption>A diagram of the Hubble Telescope</figcaption>
 					</figure>
 				</div>
 			</div>
 			<div class="panel panel-default">
-				<div class="panel-heading">Hubble Telescope</div>
+				<div class="panel-heading">Mars Odyssey</div>
 				<div class="panel-body">
 					<figure>
-						<img class="img-responsive" style="height:25%; width:25%;" src="https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_components_diagram.png" />
+						<img class="img-responsive" style="height:50%; width:50%;" src="http://mars.jpl.nasa.gov/odyssey/images/odyssey-chart-update-br-fi.jpg" />
 						<figcaption>A diagram of the Hubble Telescope</figcaption>
 					</figure>
 				</div>
-			</div>
+			</div>	
 			<div class="panel panel-default">
 				<div class="panel-heading">Curiosity Rover</div>
 				<div class="panel-body">
