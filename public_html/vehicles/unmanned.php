@@ -17,8 +17,14 @@
 		<title>Mission To Mars</title>	
 <?php include("../../includes/head.php"); ?>
 		<style type="text/css">
-			div#panel-body figure {
+			div.panel {
+				color: black;
+			}
+			div.panel-body figure {
 				float: left;
+			}
+			div.panel-body .spacecraft-description {
+				float: right;
 			}
 		</style>
     </head>
@@ -40,7 +46,9 @@
 						<img class="img-responsive"  style="height:25%; width:25%;" src="http://nssdc.gsfc.nasa.gov/planetary/image/sputnik_asm.jpg" />
 						<figcaption> An image of the Sputnik 1 in space</figcaption>
 					</figure>
-					Description of sputnik 1
+					<div class="spacecraft-description">
+						Description of sputnik 1
+					</div>
 				</div>
 			</div>
 			<div class="panel panel-default">
