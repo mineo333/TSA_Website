@@ -20,18 +20,20 @@
 			div.panel {
 				color: black;
 			}
-			div.panel-body figure {
-				width: 47.5%;
-			}
-			div.panel-body .vehicle-description {
-				width: 47.5%;
+			div.vehicle-description {
+				margin-top: 1%;
 			}
 			@media (min-width: 768px) {
 				div.panel-body figure {
-					float:left;
+					width: 47.5%;
+					float: left;
 				}
 				div.panel-body .vehicle-description {
-					float:right;
+					width: 47.5%;
+					float: right;
+				}
+				div.vehicle-description {
+					margin-top: 0px;
 				}
 			}
 		</style>
