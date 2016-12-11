@@ -77,6 +77,7 @@
 						<figcaption>An image of Luna 16 flying in space</figcaption>
 					</figure>
 				</div>
+			</div>
 			<div class="panel panel-default">
 				<div class="panel-heading">Hubble Telescope</div>
 				<div class="panel-body">
