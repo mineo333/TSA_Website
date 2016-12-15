@@ -47,6 +47,9 @@ ul#timeline-events li {
 .style-noborder {
 	border-width: 0 0 0px;
 }
+img.responsive {
+	width:100%;
+}
 @media (max-width: 1150px) {
     .navbar-header {
         float: none;
