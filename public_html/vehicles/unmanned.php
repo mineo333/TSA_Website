@@ -25,11 +25,11 @@
 			}
 			@media (min-width: 768px) {
 				div.panel-body figure {
-					width: 47.5%;
+					width: 30%;
 					float: left;
 				}
 				div.panel-body .vehicle-description {
-					width: 47.5%;
+					width: 65%;
 					float: right;
 				}
 				div.vehicle-description {
