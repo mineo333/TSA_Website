@@ -41,24 +41,23 @@
 		<!--
 			$(function()
 			{
-				$.get("data-unmanned.json", function(data) {
-					$.each(data, function(index, event)
-					{
-						var name = event.name;
-						var description = event.description;
-						var image = event.image;
-						var caption = event.caption;
-						var displayString = "<div class=\"panel panel-default\"><div class=\"panel-heading\">";
-						displayString += name;
-						displayString += "</div><div class=\"panel-body\"><figure><img class=\"img-responsive\" src=\"";
-						displayString += image;
-						displayString += "\" /><figcaption>";
-						displayString += caption;
-						displayString += "</figcaption></figure><div class=\"vehicle-description\">";
-						displayString += description;
-						displayString += "</div></div></div>";
-						$(".vehicles").append(displayString);
-					});
+				var data = <?php include("../../data/unmanned.json"); ?>;
+				$.each(data, function(index, event)
+				{
+					var name = event.name;
+					var description = event.description;
+					var image = event.image;
+					var caption = event.caption;
+					var displayString = "<div class=\"panel panel-default\"><div class=\"panel-heading\">";
+					displayString += name;
+					displayString += "</div><div class=\"panel-body\"><figure><img class=\"img-responsive\" src=\"";
+					displayString += image;
+					displayString += "\" /><figcaption>";
+					displayString += caption;
+					displayString += "</figcaption></figure><div class=\"vehicle-description\">";
+					displayString += description;
+					displayString += "</div></div></div>";
+					$(".vehicles").append(displayString);
 				});
 			});
 		//-->

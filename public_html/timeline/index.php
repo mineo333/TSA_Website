@@ -152,36 +152,35 @@
 			var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 			$(function()
 			{
-				$.get("data.json", function(data) {
-					$.each(data, function(index, event)
+				var data = <?php include("../../data/timeline.json"); ?>;
+				$.each(data, function(index, event)
+				{
+					var name = event.name;
+					var date = new Date(event.date);
+					var dateString = dateNames[date.getDay()] + ", " + monthNames[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
+					var descriptionShort = event.descriptionShort;
+					var descriptionFull = event.descriptionFull;
+					var displayString = "<li class=\"timeline-event";
+					if (index % 2 == 1)
 					{
-						var name = event.name;
-						var date = new Date(event.date);
-						var dateString = dateNames[date.getDay()] + ", " + monthNames[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
-						var descriptionShort = event.descriptionShort;
-						var descriptionFull = event.descriptionFull;
-						var displayString = "<li class=\"timeline-event";
-						if (index % 2 == 1)
-						{
-							displayString += " inverted";
-						}
-						displayString += "\"><div class=\"timeline-badge\"><i class=\"fa fa-rocket\" aria-hidden=\"true\"></i></div><div class=\"timeline-panel\"><div class=\"timeline-heading\"><h4 class=\"timeline-title\">"
-						displayString += name;
-						displayString += "</h4><p><small class=\"text-muted\"><i class=\"glyphicon glyphicon-time\" aria-hidden=\"true\"></i> ";
-						displayString += dateString;
-						displayString += "</small></div><div class=\"timeline-body\"><p>";
-						displayString += descriptionShort;
-						displayString += "</div><div class=\"timeline-event-full-description\"><button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#full-description-";
-						displayString += index;
-						displayString += "\">READ MORE</button><div id=\"full-description-";
-						displayString += index;
-						displayString += "\" class=\"modal fade\" role=\"dialog\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button><h4 class=\"modal-title\">";
-						displayString += name;
-						displayString += "</h4></div><div class=\"modal-body\"><p>";
-						displayString += descriptionFull;
-						displayString += "</div><div class=\"modal-footer\"><button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button></div></div></div></div></div></div>";
-						$(".timeline").append(displayString);
-					});
+						displayString += " inverted";
+					}
+					displayString += "\"><div class=\"timeline-badge\"><i class=\"fa fa-rocket\" aria-hidden=\"true\"></i></div><div class=\"timeline-panel\"><div class=\"timeline-heading\"><h4 class=\"timeline-title\">"
+					displayString += name;
+					displayString += "</h4><p><small class=\"text-muted\"><i class=\"glyphicon glyphicon-time\" aria-hidden=\"true\"></i> ";
+					displayString += dateString;
+					displayString += "</small></div><div class=\"timeline-body\"><p>";
+					displayString += descriptionShort;
+					displayString += "</div><div class=\"timeline-event-full-description\"><button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#full-description-";
+					displayString += index;
+					displayString += "\">READ MORE</button><div id=\"full-description-";
+					displayString += index;
+					displayString += "\" class=\"modal fade\" role=\"dialog\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button><h4 class=\"modal-title\">";
+					displayString += name;
+					displayString += "</h4></div><div class=\"modal-body\"><p>";
+					displayString += descriptionFull;
+					displayString += "</div><div class=\"modal-footer\"><button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button></div></div></div></div></div></div>";
+					$(".timeline").append(displayString);
 				});
 			});
 		//-->
