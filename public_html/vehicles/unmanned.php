@@ -16,7 +16,7 @@
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
 <?php include("../../includes/head.php"); ?>
-	    <style type="text/css">
+		<style type="text/css">
 			div.panel {
 				color: black;
 			}
@@ -37,54 +37,11 @@
 				}
 			}
 		</style>
-	    <script type="text/javascript">
+				<script type="text/javascript">
 		<!--
 			$(function()
 			{
-				var data = [
-	{
-		"name":"Sputnik",
-		"description":"Sputnik was the first unmanned spacecraft. /n It was made of aluminum, and had the size of a beach ball.",
-		"image":"/images/sputnik1.jpg",
-		"caption":"An image of the Sputnik 1 in space"
-	},
-	{
-		"name":"Explorer I",
-		"description":"INSERT DESCRIPTION HERE",
-		"image":"/images/explorer1.jpg",
-		"caption":"An image of explorer 1 flying in space"
-	},
-	{
-		"name":"Mariner 2",
-		"description":"INSERT DESCRIPTION HERE",
-		"image":"/images/mariner2.jpg",
-		"caption":"An image of Mariner 2 flying in space"
-	},
-	{
-		"name":"Luna 16",
-		"description":"INSERT DESCRIPTION HERE",
-		"image":"/images/luna16.jpg",
-		"caption":"An image of Luna 16 flying in space"
-	},
-	{
-		"name":"Hubble Telescope",
-		"description":"INSERT DESCRIPTION HERE",
-		"image":"/images/hubble.jpg",
-		"caption":"A diagram of the Hubble Telescope"
-	},
-	{
-		"name":"Mars Odyssey",
-		"description":"INSERT DESCRIPTION HERE",
-		"image":"/images/odyssey.jpg",
-		"caption":"A diagram of the Mars Odyssey"
-	},
-	{
-		"name":"Curiosity Rover",
-		"description":"INSERT DESCRIPTION HERE",
-		"image":"/images/curiosity.jpg",
-		"caption":"A picture of the Curiosity Rover on mars"
-	}
-];
+				var data = <?php include("../../data/unmanned.json"); ?>;
 				$.each(data, function(index, event)
 				{
 					var name = event.name;
@@ -107,8 +64,8 @@
 		</script>
     </head>
     <body>
-<?php include("../../includes/header.php"); ?>
-<div class="container">
+<?php include("../../includes/navbar.php"); ?>
+	<div class="container">
 		<div class="page-header">
 			<h2>
 				Unmanned Space Vehicles
