@@ -64,7 +64,7 @@
 		</script>
     </head>
     <body>
-<?php include("../../includes/header.php"); ?>
+<?php include("../../includes/navbar.php"); ?>
 	<div class="container">
 		<div class="page-header">
 			<h2>
