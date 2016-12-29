@@ -20,7 +20,6 @@
 		<style type="text/css">
 			.container {
 				color: white;
-				margin-top: 20px;
 			}
 			.timeline {
 				list-style: none;
@@ -41,6 +40,14 @@
 				margin-bottom: 20px;
 				position: relative;
 			}
+			.timeline > li.timeline-marker {
+				width: 50px;
+				left: 50%;
+				margin-left: -25px;
+				border-radius: 7.5px;
+				text-align: center;
+				background-color: #999999;
+			}
 			.timeline > li:before,
 			.timeline > li:after {
 				content: " ";
@@ -51,7 +58,7 @@
 				clear: both;
 			}
 			.timeline > li > .timeline-panel {
-				width: 46%;
+				width: calc(50% - 35px);
 				float: left;
 				border-radius: 2px;
 				padding: 20px;
@@ -72,7 +79,7 @@
 			.timeline > li > .timeline-panel:after {
 				position: absolute;
 				top: 27px;
-				right: -14px;
+				right: -13px;
 				display: inline-block;
 				border-top: 14px solid transparent;
 				border-bottom: 14px solid transparent;
@@ -82,15 +89,15 @@
 			}
 			.timeline > li > .timeline-badge {
 				color: white;
-				width: 50px;
-				height: 50px;
-				line-height: 50px;
-				font-size: 1.4em;
+				width: 25px;
+				height: 25px;
+				line-height: 25px;
+				font-size: 1em;
 				text-align: center;
 				position: absolute;
-				top: 16px;
+				top: 28px;
 				left: 50%;
-				margin-left: -25px;
+				margin-left: -12.5px;
 				background-color: #999999;
 				z-index: 100;
 				border-top-right-radius: 50%;
@@ -110,23 +117,41 @@
 			.timeline > li.inverted > .timeline-panel:after {
 				border-left-width: 0;
 				border-right-width: 14px;
-				left: -14px;
+				left: -13px;
 				right: auto;
 			}
 			.timeline-title {
 				margin-top: 0;
 			}
+			div.modal-body ul {
+				padding-left: 10px;
+			}
+			div.modal-body ul li a {
+				overflow-wrap: break-word;
+				word-wrap: break-word;
+			}
+			ul.timeline-event-links {
+				list-style-type:disc;
+			}
+			figure > figcaption {
+				font-size: 0.875em;
+			}
+			figure > figcaption > div.image-attribution {
+				font-size: 0.75em;
+			}
 			@media (max-width: 767px) {
 				ul.timeline:before {
 					left: 40px;
 				}
+				ul.timeline > li.timeline-marker {
+					left: 40px;
+				}
 				ul.timeline > li > .timeline-panel {
-					width: calc(100% - 90px);
+					width: calc(100% - 80px);
 				}
 				ul.timeline > li > .timeline-badge {
-					left: 15px;
+					left: 27.5px;
 					margin-left: 0;
-					top: 16px;
 				}
 				ul.timeline > li > .timeline-panel {
 					float: right;
@@ -141,7 +166,7 @@
 				ul.timeline > li > .timeline-panel:after {
 					border-left-width: 0;
 					border-right-width: 14px;
-					left: -14px;
+					left: -13px;
 					right: auto;
 				}
 			}
@@ -153,6 +178,7 @@
 			$(function()
 			{
 				var data = <?php include("../../data/timeline.json"); ?>;
+				var lastYear = 0;
 				$.each(data, function(index, event)
 				{
 					var name = event.name;
@@ -160,7 +186,26 @@
 					var dateString = dateNames[date.getDay()] + ", " + monthNames[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
 					var descriptionShort = event.descriptionShort;
 					var descriptionFull = event.descriptionFull;
-					var displayString = "<li class=\"timeline-event";
+					var image = event.image;
+					var caption = event.caption;
+					var attribution = event.attribution;
+					if (event.links != "") 
+					{
+						var links = event.links.split(/, ?/g);
+					}
+					else 
+					{
+						var links = [];
+					}
+					var displayString = "";
+					if (date.getFullYear() > lastYear)
+					{
+						displayString += "<li class=\"timeline-marker\">";
+						displayString += date.getFullYear();
+						displayString += "</li>";
+						lastYear = date.getFullYear();
+					}
+					displayString += "<li class=\"timeline-event";
 					if (index % 2 == 1)
 					{
 						displayString += " inverted";
@@ -179,6 +224,26 @@
 					displayString += name;
 					displayString += "</h4></div><div class=\"modal-body\"><p>";
 					displayString += descriptionFull;
+					if (image != "") 
+					{
+						displayString += "<figure><img class=\"img-responsive\" src=\"";
+						displayString += image;
+						displayString += "\" /><figcaption>";
+						displayString += caption;
+						displayString += "<div class=\"image-attribution\">";
+						displayString += attribution;
+						displayString += "</div></figcaption></figure>";
+					}
+					displayString += "<ul class=\"timeline-event-links\">";
+					for (i = 0; i < links.length; i++) 
+					{
+						displayString += "<li><a href=\"";
+						displayString += links[i];
+						displayString += "\" target=\"_blank\">";
+						displayString += links[i];
+						displayString += "</a></li>";
+					}
+					displayString += "</ul>";
 					displayString += "</div><div class=\"modal-footer\"><button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button></div></div></div></div></div></div>";
 					$(".timeline").append(displayString);
 				});

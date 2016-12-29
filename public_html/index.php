@@ -16,14 +16,6 @@
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
 <?php include("../includes/head.php"); ?>
-		<style type="text/css">
-			ul#todo li:before {
-				content: "\2610";
-			}
-			ul#todo li.done:before {
-				content: "\2611";
-			}
-		</style>
     </head>
     <body>
 <?php include("../includes/navbar.php"); ?>
@@ -33,10 +25,22 @@
 				Mission To Mars - Announcements
 			</h2>
 		</div>
+		<div class="alert alert-success alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Timeline DONE!</strong> All events have been added to the timeline and descriptions have been written! We may add more events later, but for now, the timeline is COMPLETELY FINISHED!!!
+		</div>
+		<div class="alert alert-info alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Important!</strong> Make sure to read the INSTRUCTION MANUAL below. Several people are being idiots...
+		</div>
+
 		<p>We'll be putting announcements here as we need them.</p>
-			<p>PLEASE DO RESEARCH. NO MORE CODING UNTIL THIS IS FINISHED
-			<p>We might need a dropdown menu for certain things. For example, the main "career field" page would link to
-				the other main articles for each individual career fields. Similar idea for interviews.</p>
+		<p><h4>INSTRUCTION MANUAL</h4> (handy, eh?)
+		<br>For DEVELOPING: <code>git clone</code> the repository to your local machine, and make sure you <code>git checkout</code> the right branch. Edit in your favorite text editor, and upload files to server using TESTING instructions below.
+		<br>For TESTING: Before pushing your changes to the repository, TEST your changes live! This way if you don't like what you've done, you can change it until you think it's right. First, open up your favorite FTP client (I use WinSCP), and connect to the server. For credentials, email DM (it's still not that secure, but it's more secure than sticking it on the front page of a website.) Upload the right files, and view the page in your browser.
+		<br>For PUSHING: <code>git add -A</code> to add all your edited files to the staging area, then <code>git commit -m "&lt;INSERT COMMIT MESSAGE HERE&gt;"</code> to commit. If you think two commands is too much and you want just one, use <code>git commit -a -m "&lt;INSERT COMMIT MESSAGE HERE&gt;"</code> (that's the one I use). Regardless of how you commit, push to the remote repository with <code>git push</code>.
+		<h4>WHATEVER YOU'RE DOING, MAKE SURE YOU KNOW WHAT IT IS YOU'RE DOING. DON'T EDIT THE WRONG FILES. DON'T PUSH UNLESS YOU KNOW FOR SURE THAT YOU'RE DOING IT RIGHT. </h4>
+		</p>
 			<h4>PROPOSED SITEMAP (BUILD AROUND THIS)</h4>
 			<ul>
 				<li>Home</li>
@@ -66,9 +70,9 @@
 				</li>
 				<li>Resources</li>
 			</ul>
-			<p>To Do List:
+			<p><h4>To Do List:</h4></p>
 			
-			<ul style="list-style-type: none; text-indent:-1.2em;" id="todo">
+			<ul>
 				<li>Research</li>
 			</ul>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero enim, scelerisque sit amet diam at, gravida vulputate mi. Vestibulum in dapibus neque, nec maximus sem. Nulla facilisi. Sed aliquet efficitur orci. Vestibulum a nisi ante. Morbi sit amet sollicitudin nibh. Nunc scelerisque augue erat, ac iaculis turpis venenatis at. Mauris aliquam felis nisi. Aenean vestibulum facilisis est, eget vehicula nibh sagittis non. Nulla risus nunc, congue et commodo eget, semper in leo. Aliquam semper at ligula iaculis gravida. </p>
