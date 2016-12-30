@@ -1,19 +1,19 @@
 [
 	{
 		"name":"Sputnik",
-		"description":"INSERT DESCRIPTION HERE",
+		"description":"Sputnik was an aluminum satellite in the shape of a beach ball.  It was the first satellite to ever fly in space.",
 		"image":"/images/sputnik1.jpg",
 		"caption":"An image of the Sputnik 1 in space"
 	},
 	{
 		"name":"Explorer I",
-		"description":"INSERT DESCRIPTION HERE",
+		"description":"Explorer I was a small satellite with a rocket like shape.  It was the first satellite to carry instruments.",
 		"image":"/images/explorer1.jpg",
 		"caption":"An image of explorer 1 flying in space"
 	},
 	{
 		"name":"Mariner 2",
-		"description":"INSERT DESCRIPTION HERE",
+		"description":"Mariner 2 had solar panel wings and an antenna dish for communicating with earth.  It protected itself with thermal shields, and it was the first satellite to explore a planet other than earth",
 		"image":"/images/mariner2.jpg",
 		"caption":"An image of Mariner 2 flying in space"
 	},
