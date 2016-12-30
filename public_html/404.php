@@ -1,3 +1,4 @@
+<?php if (strpos($_SERVER["REQUEST_URI"], "404.php") !== false ) {header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found");}; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
