@@ -1,3 +1,4 @@
+<?php if (strpos($_SERVER["REQUEST_URI"], "404.php") !== false ) {header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found");}; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -18,7 +19,7 @@
 		<?php include("../includes/head.php"); ?>
     </head>
     <body>
-	<?php include("../includes/header.php"); ?>
+	<?php include("../includes/navbar.php"); ?>
 	<div class="container">
 		<div class="page-header">
 			<h2>

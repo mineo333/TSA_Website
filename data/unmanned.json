@@ -1,0 +1,44 @@
+[
+	{
+		"name":"Sputnik",
+		"description":"Sputnik was an aluminum satellite in the shape of a beach ball.  It was the first satellite to ever fly in space.",
+		"image":"/images/sputnik1.jpg",
+		"caption":"An image of the Sputnik 1 in space"
+	},
+	{
+		"name":"Explorer I",
+		"description":"Explorer I was a small satellite with a rocket like shape.  It was the first satellite to carry instruments.",
+		"image":"/images/explorer1.jpg",
+		"caption":"An image of explorer 1 flying in space"
+	},
+	{
+		"name":"Mariner 2",
+		"description":"Mariner 2 had solar panel wings and an antenna dish for communicating with earth.  It protected itself with thermal shields, and it was the first satellite to explore a planet other than earth",
+		"image":"/images/mariner2.jpg",
+		"caption":"An image of Mariner 2 flying in space"
+	},
+	{
+		"name":"Luna 16",
+		"description":"INSERT DESCRIPTION HERE",
+		"image":"/images/luna16.jpg",
+		"caption":"An image of Luna 16 flying in space"
+	},
+	{
+		"name":"Hubble Telescope",
+		"description":"INSERT DESCRIPTION HERE",
+		"image":"/images/hubble.jpg",
+		"caption":"A diagram of the Hubble Telescope"
+	},
+	{
+		"name":"Mars Odyssey",
+		"description":"INSERT DESCRIPTION HERE",
+		"image":"/images/odyssey.jpg",
+		"caption":"A diagram of the Mars Odyssey"
+	},
+	{
+		"name":"Curiosity Rover",
+		"description":"INSERT DESCRIPTION HERE",
+		"image":"/images/curiosity.jpg",
+		"caption":"A picture of the Curiosity Rover on mars"
+	}
+]
