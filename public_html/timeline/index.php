@@ -15,7 +15,7 @@
 		-->
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
-		<?php include("../../includes/head.php"); ?>
+<?php include("../../includes/head.php"); ?>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<style type="text/css">
 			.container {
@@ -263,7 +263,7 @@
 		</script>
     </head>
     <body>
-	<?php include("../../includes/navbar.php"); ?>
+<?php include("../../includes/navbar.php"); ?>
 	<div class="container">
 		<div class="page-header">
 			<h2>
@@ -274,6 +274,6 @@
 		<ul class="timeline">
 		</ul>
 	</div>
-	<?php include("../../includes/footer.php"); ?>    
+<?php include("../../includes/footer.php"); ?>    
     </body>
 </html>

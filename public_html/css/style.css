@@ -6,13 +6,19 @@ body {
   margin: 0;
   margin-bottom: 60px;
   padding: 0;
-  background-color: black;
-  background-image: url("/images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 0% -5%;
-  color:white;
+  color: white;
+}
+body:before {
+	content: "";
+	background-color: #91623d;
+	background-image: url("/images/background.jpg");
+	background-size: cover;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -9999;
 }
 #background-attribution {
   position:absolute;
