@@ -50,7 +50,7 @@
 			<div class="panel-heading">Astronaut</div>
 			<div class="panel-body">
 				<figure>
-					<img class="img-responsive" src="/images/astronaut.jpg">
+					<img class="img-responsive" src="/images/brucemccandless.jpg">
 					<figcaption>
 						Astronaut Bruce McCandless &#8545; using a Manned Maneuvering Unit (MMU) on shuttle mission STS-41-B in 1984. 
 						<br>By NASA [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AAstronaut-EVA.jpg">via Wikimedia Commons</a>

@@ -6,6 +6,21 @@ body {
   margin: 0;
   margin-bottom: 60px;
   padding: 0;
+<<<<<<< HEAD
+  color: white;
+}
+body:before {
+	content: "";
+	background-color: #91623d;
+	background-image: url("/images/background.jpg");
+	background-size: cover;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -9999;
+=======
   background-color: #91623d;
   background-image: url("/images/background.jpg");
   background-size: cover;
@@ -13,14 +28,12 @@ body {
   background-attachment: fixed;
   background-position: 0% -5%;
   color:white;
+>>>>>>> master
 }
 #background-attribution {
   position:absolute;
   bottom:0px;
   right:0px;
-}
-body .container {
-	padding-top: 60px;
 }
 .footer {
   width: 100%;
@@ -49,4 +62,8 @@ ul#timeline-events li {
 }
 img.img-responsive {
 	width:100%;
+}
+a {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
 }

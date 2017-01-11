@@ -15,7 +15,7 @@
 		-->
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
-		<?php include("../../includes/head.php"); ?>
+<?php include("../../includes/head.php"); ?>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 		<style type="text/css">
 			.container {
@@ -25,6 +25,7 @@
 				list-style: none;
 				padding: 20px 0 20px;
 				position: relative;
+				display: none;
 			}
 			.timeline:before {
 				top: 0;
@@ -139,6 +140,11 @@
 			figure > figcaption > div.image-attribution {
 				font-size: 0.75em;
 			}
+			img.timeline-loading {
+				width: 20%;
+				position: relative;
+				left: 40%;
+			}
 			@media (max-width: 767px) {
 				ul.timeline:before {
 					left: 40px;
@@ -173,6 +179,11 @@
 		</style>
 		<script type="text/javascript">
 		<!--
+			$(window).on('load', function() {
+				$("img.timeline-loading").fadeOut("slow", function() {
+					$("ul.timeline").fadeIn("slow");
+				});
+			});
 			var dateNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 			var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 			$(function()
@@ -252,16 +263,17 @@
 		</script>
     </head>
     <body>
-	<?php include("../../includes/navbar.php"); ?>
+<?php include("../../includes/navbar.php"); ?>
 	<div class="container">
 		<div class="page-header">
 			<h2>
 				The Privatization of the Space Program and the United States's Space Program
 			</h2>
 		</div>
+		<img src="/images/loading.gif" class="timeline-loading img-responsive">
 		<ul class="timeline">
 		</ul>
 	</div>
-	<?php include("../../includes/footer.php"); ?>    
+<?php include("../../includes/footer.php"); ?>    
     </body>
 </html>

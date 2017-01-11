@@ -23,3 +23,9 @@ footer {
 figcaption {
   color: black;
 }
+section > header > h3 {
+	font-size: 1.2em;
+}
+ul.sources > li > a {
+	color: white;
+}

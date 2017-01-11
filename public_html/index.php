@@ -30,7 +30,7 @@
 			<strong>Timeline DONE!</strong> All events have been added to the timeline and descriptions have been written! We may add more events later, but for now, the timeline is COMPLETELY FINISHED!!!
 		</div>
 		<div class="alert alert-info alert-dismissable fade in">
-			<a href="#" class="close" data-dismiss="alert" aria-label="close">$times;</a>
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 			<strong>New FAVICON!</strong> Check out the favicon (probably somewhere in the tab for this page in your browser)
 		</div>
 		<div class="alert alert-warning alert-dismissable fade in">

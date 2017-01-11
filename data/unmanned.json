@@ -1,9 +1,12 @@
 [
 	{
 		"name":"Sputnik",
-		"description":"Sputnik was an aluminum satellite in the shape of a beach ball.  It was the first satellite to ever fly in space.",
+		"description":"Launched on January 31, 1958, Sputnik amazed the world by being the first satellite to orbit earth.  "+ 
+		 "<p>It was a spherical shaped satellite that was made of aluminum, and it weighed a light amount of 83.6kg.</p>" +
+		 "<p>With that small weight also comes the fact that the satellite was simple, as it carried no instruments.</p>"+
+		 "<p>So overall, Sputnik was the pioneer of satellites, and its launch preceded many more launches to come.</p>",  
 		"image":"/images/sputnik1.jpg",
-		"caption":"An image of the Sputnik 1 in space"
+		"caption":"An image of the Sputnik 1 orbiting earth"
 	},
 	{
 		"name":"Explorer I",
@@ -40,5 +43,11 @@
 		"description":"INSERT DESCRIPTION HERE",
 		"image":"/images/curiosity.jpg",
 		"caption":"A picture of the Curiosity Rover on mars"
+	},
+	{
+		"name":"InSight",
+		"description":"none",
+		"image":"",
+		"caption":"A picture of InSight"
 	}
 ]
