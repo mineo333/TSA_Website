@@ -53,3 +53,7 @@ ul#timeline-events li {
 img.img-responsive {
 	width:100%;
 }
+a {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+}
