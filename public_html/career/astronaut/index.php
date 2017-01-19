@@ -18,12 +18,17 @@
 <?php include("../../../includes/head.php"); ?>
 	<style type="text/css">
 		figure {
-			float: right;
-			width: 30%;
-			margin: 8px;
-			padding: 8px;
-			border-radius: 5px;
+			width: 100%;
 			background-color: white;
+			border-radius: 5px;
+			padding: 8px;
+		}
+		@media (min-width: 768px) {
+			figure {
+				float: right;
+				width: 30%;
+				margin: 8px;
+			}
 		}
 	</style>
     </head>
