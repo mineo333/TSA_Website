@@ -25,12 +25,11 @@
 				Interviews
 			</h2>
 		</div>
-		<p>Person we're interviewing: </p>
-		<p>Q: Why do you believe people will reach Mars?</p>
-		<p>A: </p>
-		<br>
-		<p>Q: What will people do once they reach Mars?</p>
-		<p>A: </p>
+		<p>In order to gain a deeper understanding of the current situation on the privatization and exploration of Mars, as well as the rest of space, we contacted and interviewed two experts in the field of space exploration. We asked them the following questions:</p>
+		<ol>
+			<li>Q: Why do you believe people will reach Mars?</li>
+			<li>Q: What will people do once they reach Mars?</li>
+		</ol>
 	</div>
 	<?php include("../../includes/footer.php"); ?>    
     </body>
