@@ -25,7 +25,7 @@
 				Interviews
 			</h2>
 		</div>
-	
+		<p>All the general interviews</p>
 	</div>
 	<?php include("../../includes/footer.php"); ?>    
     </body>
