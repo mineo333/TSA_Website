@@ -49,7 +49,8 @@
 
 		"name":"Mariner 2",
 
-		"description":"<p>On August 27, 1962, Mariner 2 was launched as a satellite for flyby planetary exploration after Mariner 1 failed.  It weighed 202.8 kg, and was 3.66m in height. ",
+		"description":"<p>On August 27, 1962, Mariner 2 was launched by its 225N rocket as a satellite for flyby planetary exploration after Mariner 1 failed.  It weighed 202.8 kg, and was 3.66m in height. </p>" +
+		"<p></p>",
 
 		"image":"/images/mariner2.jpg",
 
