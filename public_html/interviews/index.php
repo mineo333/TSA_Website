@@ -25,12 +25,7 @@
 				Interviews
 			</h2>
 		</div>
-		<p>Person we're interviewing: </p>
-		<p>Q: Why do you believe people will reach Mars?</p>
-		<p>A: </p>
-		<br>
-		<p>Q: What will people do once they reach Mars?</p>
-		<p>A: </p>
+	
 	</div>
 	<?php include("../../includes/footer.php"); ?>    
     </body>
