@@ -16,6 +16,11 @@
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
 <?php include("../includes/head.php"); ?>
+		<style type="text/css">
+			li.done {
+				text-decoration: line-through;
+			}
+		</style>
     </head>
     <body>
 <?php include("../includes/navbar.php"); ?>
@@ -27,58 +32,25 @@
 		</div>
 		<div class="alert alert-success alert-dismissable fade in">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			<strong>Timeline DONE!</strong> All events have been added to the timeline and descriptions have been written! We may add more events later, but for now, the timeline is COMPLETELY FINISHED!!!
+			<strong>Checklist below</strong> Several pages have been finished. track progress with the checklist below.
 		</div>
-		<div class="alert alert-info alert-dismissable fade in">
-			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			<strong>New FAVICON!</strong> Check out the favicon (probably somewhere in the tab for this page in your browser)
-		</div>
-		<div class="alert alert-warning alert-dismissable fade in">
-			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			<strong>Important!</strong> Make sure to read the INSTRUCTION MANUAL below. Several people are being idiots...
-		</div>
-
 		<p>We'll be putting announcements here as we need them.</p>
-		<h4>INSTRUCTION MANUAL</h4> (handy, eh?)
-		<br>For DEVELOPING: <code>git clone</code> the repository to your local machine, and make sure you <code>git checkout</code> the right branch. Edit in your favorite text editor, and upload files to server using TESTING instructions below.
-		<br>For TESTING: Before pushing your changes to the repository, TEST your changes live! This way if you don't like what you've done, you can change it until you think it's right. First, open up your favorite FTP client (I use WinSCP), and connect to the server. For credentials, email DM (it's still not that secure, but it's more secure than sticking it on the front page of a website.) Upload the right files, and view the page in your browser.
-		<br>For PUSHING: <code>git add -A</code> to add all your edited files to the staging area, then <code>git commit -m "&lt;INSERT COMMIT MESSAGE HERE&gt;"</code> to commit. If you think two commands is too much and you want just one, use <code>git commit -a -m "&lt;INSERT COMMIT MESSAGE HERE&gt;"</code> (that's the one I use). Regardless of how you commit, push to the remote repository with <code>git push</code>.
-		<h4>WHATEVER YOU'RE DOING, MAKE SURE YOU KNOW WHAT IT IS YOU'RE DOING. DON'T EDIT THE WRONG FILES. DON'T PUSH UNLESS YOU KNOW FOR SURE THAT YOU'RE DOING IT RIGHT. </h4>
-			<h4>PROPOSED SITEMAP (BUILD AROUND THIS)</h4>
-		<h4>DO NOT EDIT MASTER WITHOUT A PULL REQUEST! Kind of ironic because I am pushing to master myself...</h4>
-			<ul>
-				<li>Home</li>
-				<li>Privatization</li>
-				<li>Timeline</li>
-				<li>Space Vehicles
-					<ul>
-						<li>Manned</li>
-						<li>Unmanned</li>
-					</ul>
-				</li>
-				<li>Career Fields
-					<ul>
-						<li>Career Field One</li>
-						<li>Career Field Two</li>
-						<li>Career Field Three</li>
-						<li>Career Field Four</li>
-						<li>Career Field Five</li>
-					</ul>
-				</li>
-				<li>What if we fail?</li>
-				<li>Interviews
-					<ul>
-						<li>Interview One</li>
-						<li>Interview Two</li>
-					</ul>	
-				</li>
-				<li>Resources</li>
-			</ul>
-			<h4>To Do List:</h4>
-			
-			<ul>
-				<li>Research</li>
-			</ul>
+		<p>We've finished a bunch of pages, so here's a checklist: </p>
+		<ul>
+			<li class="done">Privatization</li>
+			<li class="done">Timeline</li>
+			<li>Evolution of Space Vehicles
+				<ul>
+					<li>Manned</li>
+					<li>Unmanned</li>
+				</ul>
+			</li>
+			<li>Career Fields</li>
+			<li>What if we fail?</li>
+			<li>Interviews</li>
+			<li>Resources</li>
+		</ul>
+	
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero enim, scelerisque sit amet diam at, gravida vulputate mi. Vestibulum in dapibus neque, nec maximus sem. Nulla facilisi. Sed aliquet efficitur orci. Vestibulum a nisi ante. Morbi sit amet sollicitudin nibh. Nunc scelerisque augue erat, ac iaculis turpis venenatis at. Mauris aliquam felis nisi. Aenean vestibulum facilisis est, eget vehicula nibh sagittis non. Nulla risus nunc, congue et commodo eget, semper in leo. Aliquam semper at ligula iaculis gravida. </p>
 			<p>Nulla euismod sodales nisl non cursus. Morbi at commodo diam, eget eleifend nibh. Pellentesque vel leo id arcu blandit porta. Vivamus luctus eros et mauris euismod fermentum. Nulla luctus nisi facilisis, ultricies orci ac, varius nunc. Praesent eget tellus at ligula dignissim pulvinar. Sed sit amet purus commodo, semper ipsum ac, accumsan ligula. Fusce non dapibus dolor, sit amet volutpat felis. Praesent congue nisi nisl, quis ornare libero accumsan non. Vestibulum rutrum eu mi vel tempor. Nulla ac vulputate enim, quis porta sem. Mauris iaculis justo tincidunt, vestibulum ex ac, pellentesque nisl. Mauris faucibus dolor vitae quam dignissim, eu pharetra risus malesuada. Sed et pulvinar nibh, ut sodales sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ultricies nibh at dolor rutrum semper. </p>
 			<p>Nam eleifend elit sed massa ornare, ac tempus turpis rutrum. Nam vitae diam interdum, tempor mauris sit amet, consectetur magna. Nullam vitae elit ut turpis vestibulum faucibus. Ut massa risus, tempus ut libero a, feugiat tristique ex. Cras vitae hendrerit eros, eu commodo lacus. Sed convallis sagittis ultricies. Aenean laoreet est vel tortor condimentum fermentum. Sed efficitur leo nisi, ut tempor quam lacinia vel. Cras quis mauris id tellus eleifend consectetur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed sodales lobortis pellentesque. </p>
