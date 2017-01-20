@@ -32,7 +32,7 @@
 		</div>
 		<div class="alert alert-success alert-dismissable fade in">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			<strong>Checklist below</strong> Several pages have been finished. track progress with the checklist below.
+			<strong>Checklist below</strong> Several pages have been finished. Track progress with the checklist below.
 		</div>
 		<p>We'll be putting announcements here as we need them.</p>
 		<p>We've finished a bunch of pages, so here's a checklist: </p>
@@ -45,7 +45,15 @@
 					<li>Unmanned</li>
 				</ul>
 			</li>
-			<li>Career Fields</li>
+			<li>Career Fields
+				<ul>
+					<li class="done">Astronaut</li>
+					<li>Chemist</li>
+					<li>Electrician</li>
+					<li>Engineer</li>
+					<li>Physicist</li>
+				</ul>
+			</li>
 			<li>What if we fail?</li>
 			<li>Interviews</li>
 			<li>Resources</li>
