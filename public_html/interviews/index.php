@@ -25,7 +25,11 @@
 				Interviews
 			</h2>
 		</div>
-		<p>All the general interviews</p>
+		<p>In order to gain a deeper understanding of the current situation on the privatization and exploration of Mars, as well as the rest of space, we contacted and interviewed two experts in the field of space exploration. We asked them the following questions:</p>
+		<ol>
+			<li>Why do you believe people will reach Mars?</li>
+			<li>What will people do once they reach Mars?</li>
+		</ol>
 	</div>
 	<?php include("../../includes/footer.php"); ?>    
     </body>

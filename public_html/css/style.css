@@ -9,16 +9,16 @@ body {
   color: white;
 }
 body:before {
-	content: "";
-	background-color: #91623d;
-	background-image: url("/images/background.jpg");
-	background-size: cover;
-	position: fixed;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -9999;
+  content: "";
+  background-color: #91623d;
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -9999;
 }
 #background-attribution {
   position:absolute;
@@ -54,6 +54,6 @@ img.img-responsive {
 	width:100%;
 }
 a {
-	overflow-wrap: break-word;
-	word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }

@@ -45,6 +45,7 @@
 		<br>For PUSHING: <code>git add -A</code> to add all your edited files to the staging area, then <code>git commit -m "&lt;INSERT COMMIT MESSAGE HERE&gt;"</code> to commit. If you think two commands is too much and you want just one, use <code>git commit -a -m "&lt;INSERT COMMIT MESSAGE HERE&gt;"</code> (that's the one I use). Regardless of how you commit, push to the remote repository with <code>git push</code>.
 		<h4>WHATEVER YOU'RE DOING, MAKE SURE YOU KNOW WHAT IT IS YOU'RE DOING. DON'T EDIT THE WRONG FILES. DON'T PUSH UNLESS YOU KNOW FOR SURE THAT YOU'RE DOING IT RIGHT. </h4>
 			<h4>PROPOSED SITEMAP (BUILD AROUND THIS)</h4>
+		<h4>DO NOT EDIT MASTER WITHOUT A PULL REQUEST! Kind of ironic because I am pushing to master myself...</h4>
 			<ul>
 				<li>Home</li>
 				<li>Privatization</li>
