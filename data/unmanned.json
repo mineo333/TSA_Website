@@ -1,53 +1,122 @@
 [
+
 	{
+
 		"name":"Sputnik",
-		"description":"Launched on January 31, 1958, Sputnik amazed the world by being the first satellite to orbit earth.  "+ 
-		 "<p>It was a spherical shaped satellite that was made of aluminum, and it weighed a light amount of 83.6kg.</p>" +
-		 "<p>With that small weight also comes the fact that the satellite was simple, as it carried no instruments.</p>"+
-		 "<p>So overall, Sputnik was the pioneer of satellites, and its launch preceded many more launches to come.</p>",  
+
+		"description":"<p>Launched on October 4, 1957, Sputnik amazed the world by being the first satellite to orbit earth.  "+ 
+
+		 "It was a spherical shaped satellite that was made of aluminum, and it weighed a light amount of 83.6kg.  " +
+
+		 "As well as being light, Sputnik was simple, as it only carried two radios and a thermometer.  </p>"+
+
+		 "<p>After being launched, Sputnik lived a short life.  " +
+
+		 "It transmitted radio signals for 21 days, and just 36 days later, Sputnik was destroyed while coming back into the atmosphere."+
+
+		 "Even though Sputnik had a small lifespan, it had a major impact, as its launch triggered the start of the space age.</p>",  
 		"image":"/images/sputnik1.jpg",
-		"caption":"An image of the Sputnik 1 orbiting earth"
+
+		"caption":"An image of the Sputnik 1 orbiting earth."
+
 	},
+
 	{
+
 		"name":"Explorer I",
-		"description":"Explorer I was a small satellite with a rocket like shape.  It was the first satellite to carry instruments.",
+
+		"description":"<p>Explorer I was launched through its Jupiter-C rocket on February 1, 1958 as a response to Russia's Sputnik 1.  "+
+
+		"It carried a cosmic ray detector for measuring the cosmic rays around earth, and to many people's surprise, they were had a small presence.  "+
+
+		"Even with its instruments, Explorer I weighed significantly less with only 30.66 pounds, 18 of them being instruments.  "+
+
+		"Its length of 80in and diameter of 6.25cm also contribute to the light weight.</p>" +
+
+		"<p>The Explorer satellite continually sent new data, until its nickel cadmium battery died on May 23, 1958.  "+
+
+		"However, it remained in orbit until 1970, when it crashed in the Pacific Ocean on March 31 after completing 58,000 orbits around earth.  "+
+
+		"Even with its short life, Explorer I was a major success, as it taught scientists how satellites behave around earth, and how many cosmic rays exist around earth.  </p>",
+
 		"image":"/images/explorer1.jpg",
-		"caption":"An image of explorer 1 flying in space"
+
+		"caption":"A picture of Explorer I."
+
 	},
+
 	{
+
 		"name":"Mariner 2",
-		"description":"Mariner 2 had solar panel wings and an antenna dish for communicating with earth.  It protected itself with thermal shields, and it was the first satellite to explore a planet other than earth",
+
+		"description":"<p>On August 27, 1962, Mariner 2 was launched by its 225N rocket as a satellite for flyby planetary exploration after Mariner 1 failed.  It weighed 202.8 kg, and was 3.66m in height. </p>" +
+		"<p></p>",
+
 		"image":"/images/mariner2.jpg",
+
 		"caption":"An image of Mariner 2 flying in space"
+
 	},
+
 	{
+
 		"name":"Luna 16",
+
 		"description":"INSERT DESCRIPTION HERE",
+
 		"image":"/images/luna16.jpg",
+
 		"caption":"An image of Luna 16 flying in space"
+
 	},
+
 	{
+
 		"name":"Hubble Telescope",
+
 		"description":"INSERT DESCRIPTION HERE",
+
 		"image":"/images/hubble.jpg",
+
 		"caption":"A diagram of the Hubble Telescope"
+
 	},
+
 	{
+
 		"name":"Mars Odyssey",
+
 		"description":"INSERT DESCRIPTION HERE",
+
 		"image":"/images/odyssey.jpg",
+
 		"caption":"A diagram of the Mars Odyssey"
+
 	},
+
 	{
+
 		"name":"Curiosity Rover",
+
 		"description":"INSERT DESCRIPTION HERE",
+
 		"image":"/images/curiosity.jpg",
+
 		"caption":"A picture of the Curiosity Rover on mars"
+
 	},
+
 	{
+
 		"name":"InSight",
+
 		"description":"none",
+
 		"image":"",
+
 		"caption":"A picture of InSight"
+
 	}
+
 ]
+
