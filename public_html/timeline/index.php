@@ -137,9 +137,6 @@
 			figure > figcaption {
 				font-size: 0.875em;
 			}
-			figure > figcaption > div.image-attribution {
-				font-size: 0.75em;
-			}
 			img.timeline-loading {
 				width: 20%;
 				position: relative;
