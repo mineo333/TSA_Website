@@ -18,9 +18,9 @@
 	},
 	{
 		"name":"Mariner 2",
-		"description":"<p>On August 27, 1962, Mariner 2 was launched by its 225N rocket as a satellite for flyby planetary exploration after Mariner 1 failed.  It weighed 202.8 kg, and was 3.66m in height. </p><p></p>",
+		"description":"<p>On August 27, 1962, Mariner 2 was launched by its 225N rocket as a satellite for flyby planetary exploration after Mariner 1 failed.  The satellite weighed 202.8 kg and was 3.66m in height. It's mission was to return data on Venus's atmosphere, magnetic field, charged particle environment, and mass. </p><p>Mariner 2 had traditional solar panel wings for a constant supply of power, and it contained 1000 Watt-hour zinc batteries to store energy.  Its transmitter used the antenna dish on it to send and receive signals.  Along with those instruments, the satellite used multiple instruments for recording data, maintaining temperature, and recording data, such as its microwave radiometer.</p><p>With these instruments, the spacecraft discovered that Venus has a hot surface temperatures, a high surface pressure, mostly carbon dioxide for its atmosphere, a layer of clouds at about 60km altitude, and it has no magnetic field.  Estimates on its mass were also inferred.</p>",
 		"image":"/images/mariner2.jpg",
-		"caption":"An image of Mariner 2 flying in space"
+		"caption":"Mariner 2, Cruising through the Solar System"
 	},
 	{
 		"name":"Luna 16",
