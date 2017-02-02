@@ -47,13 +47,6 @@
 			<p>Unfortunately for this experiment, it probably wasn’t all it was cracked up to be. When  more organic molecules were added a week later, they failed create another spike in CO2, something that should have happened if the purported life forms had multiplied. As of today, scientists believe that inorganic salts in the Martian soil, such as superoxide containing O2 ions, were responsible for the observed oxidation, as opposed to biological action.</p>
 			<p>In the future, chemists will likely be of high demand in potential Martian colonies. Besides being of high demand for performing experiments, they could provide a lifesaving support in case of potential natural disasters or chemical contaminants. Whatever the reason, chemists will sure to be vital in any and all future settlements on the Red Planet.</p>
 		</section>
-			<header><h3>Spacesuit</h3></header>
-			<p>One of the identifying features of an astronaut is the spacesuit. As children we all learn about astronauts, and there is always a picture of an astronaut, in a spacesuit, doing a spacewalk. These space suits are worn for many reasons. The first is temperature. Temperature is space can vary between -250 &deg;F (-156.67 %deg;F) and 250 &deg;F (121.11 &deg;F). The spacesuit will regulate the temperature, and keep it at a comfortable level. Spacesuits also supply oxygen and water. Without these two critical supplies, the astronaut would not live very long. The spacesuit also protects the astronauts against "space dust", radiation, and bright sunlight. </p>
-			<p>Spacesuits have several pieces. The Hard Upper Torso covers the (you guessed it) torso. The arm assembly covers the (again) arms. The helmet and Extravehicular Visor Assembly protect the astronauts head without obstructing his/her view. The Lower Torso Assembly covers the astronaut's legs and feet. </p>
-			<p>Underneath the spacesuit there is a Liquid Cooling and Ventilation system. Tubes are woven into the suit, which carry water and cool the astronaut. </p>
-			<p>You may have noticed a "backpack" in some pictures of astronauts. This backpack carries the Primary Life Support Subsystem. It supplies the oxygen, and also removes the carbon dioxide. It also has a fan and water tank to move oxygen and supply cooling water, respectively. The backpack also provides electricity. </p>
-			<p>The suit also has a Simplified Aid for Extravehicular Activity Rescue (SAFER) on the back. The SAFER consists of several small thruster jets that allow the astronaut to fly back to the space station, should he/she become separated. </p>
-		</section>
 		<figure>
 			<img class="img-responsive" src="/images/donfrazier.jpg">
 			<figcaption>
