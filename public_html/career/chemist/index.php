@@ -76,7 +76,8 @@
 		<section>
 			<header><h3>Sources</h3></header>
 			<ul class="sources">
-				<li>We need to find sources for this page (BEN GET TO WORK).</li>
+				<li><a href="https://www.nasa.gov/centers/marshall/about/marshallfaces/frazier.html" target="_blank">https://www.nasa.gov/centers/marshall/about/marshallfaces/frazier.html</a></li>
+				<li><a href="http://www.cheminst.ca/magazine/feature-story/chemistry-mars" target="_blank">http://www.cheminst.ca/magazine/feature-story/chemistry-mars</a></li>
 			</ul>
 		</section>
 	</div>
