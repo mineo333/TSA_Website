@@ -1,55 +1,122 @@
 [
 	{
-		"name":"Sputnik",
-		"description":"<p>Launched on October 4, 1957, Sputnik amazed the world by being the first satellite to orbit earth.  It was a spherical shaped satellite that was made of aluminum, and it weighed a light amount of 83.6kg.  As well as being light, Sputnik was simple, as it only carried two radios and a thermometer.  </p><p>After being launched, Sputnik lived a short life.  It transmitted radio signals for 21 days, and just 36 days later, Sputnik was destroyed while coming back into the atmosphere.  Even though Sputnik had a small lifespan, it had a major impact, as its launch triggered the start of the space age.</p>",  
-		"image":"/images/sputnik1.jpg",
-		"caption":"An image of the Sptnik 1 orbiting earth."
-
+		"name":"Galileo arrives at Jupiter",
+		"date":"1995-12-07",
+		"descriptionShort":"Launched in 1989, Galileo explored Jupiter and its moons. ",
+		"descriptionFull":"<p>Galileo was launched on October 18, 1989 on the space shuttle Atlantis. Atlantis carried Galileo into Earth orbit, and then propelled Galileo on it's way to Jupiter, using a two-stage solid-fuel motor called an intertial upper stage. The final flight of the spacecraft used gravity assists to gain energy and fly towards its final destination.</p><p>En route to Jupiter, Galileo flew past Venus on February 10, 1990, and also past Earth, once on December 8, 1990, and again two years later on December 8, 1992. Galileo also flew close to two asteroids, Gaspra on October 12, 1991, and Ida on August 28, 1993. </p><p>Galileo arrived at Jupiter on December 7, 1995. After entering orbit, it dropped a probe into the atmosphere. The probe was used to measure many things, including but not limited to, temperature, pressure, vertical winds, density, and chemical composition. </p><p>The probe detected high concentrations of Argon, Krypton, and Xenon in Jupiter's atmosphere. This, it beamed back to Galileo with a huge amount of other information, which was then sent back to Earth. </p><p>Galileo orbited Jupiter and its moons for quite a long time. When it's mission finally ended on September 21, 2003, NASA crashed the spacecraft into Jupiter's atmosphere, to prevent Galileo from drifting and impacting Europa.</p>",
+		"image":"/images/galileo.jpg",
+		"caption":"An artist's view of Galileo flying past Jupiter's moon Io. ",
+		"attribution":"By NASA [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3AArtwork_Galileo-Io-Jupiter.JPG\" target=\"blank\">via Wikimedia Commons</a>",
+		"links":"http://www.nasa.gov/centers/ames/missions/archive/galileo-jupiter.html"
 	},
 	{
-		"name":"Explorer I",
-		"description":"<p>Explorer I was launched through its Jupiter-C rocket on February 1, 1958 as a response to Russia's Sputnik 1. It carried a cosmic ray detector for measuring the cosmic rays around earth, and to many people's surprise, they were had a small presence.  "+
-		"Even with its instruments, Explorer I weighed significantly less with only 30.66 pounds, 18 of them being instruments.  "+
-		"Its length of 80in and diameter of 6.25cm also contribute to the light weight.</p><p>The Explorer satellite continually sent new data, until its nickel cadmium battery died on May 23, 1958.  "+
-		"However, it remained in orbit until 1970, when it crashed in the Pacific Ocean on March 31 after completing 58,000 orbits around earth.  "+
-		"Even with its short life, Explorer I was a major success, as it taught scientists how satellites behave around earth, and how many cosmic rays exist around earth.  </p>",
-		"image":"/images/explorer1.jpg",
-		"caption":"A picture of Explorer I."
+		"name":"Pathfinder and Sojourner land on Mars",
+		"date":"1997-07-04",
+		"descriptionShort":"Launched in 1996, Pathfinder and Sojourner explored the Martian surface.",
+		"descriptionFull":"<p>The Mars Pathfinder was launched on December 4, 1996 on a Delta &#8545; rocket. The spacecraft succesfully landed on Mars on July 4, 1997. The first data transmission was succesfully received about 4 hours later, and the first images about 4&frac12; hours after that.</p><p>The Pathfinder mission included two different spacecraft: Pathfinder, the base station, and Sojourner, the rover. Sojourner operated for about three months, three times longer than expected. It provided a vast amount of information about Mars, until it's final successful data transmission cycle on September 27, 1997. </p>",
+		"image":"/images/sojourner.jpg", 
+		"caption":"Sojourner on Mars on Sol 22. ",
+		"attribution":"See page for author [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3APathfinder01.jpg\" target=\"blank\">via Wikimedia Commons</a>",
+		"links":"http://www.nasa.gov/centers/glenn/about/history/marspath.html"
 	},
 	{
-		"name":"Mariner 2",
-		"description":"<p>On August 27, 1962, Mariner 2 was launched by its 225N rocket as a satellite for flyby planetary exploration after Mariner 1 failed.  The satellite weighed 202.8 kg and was 3.66m in height. It's mission was to return data on Venus's atmosphere, magnetic field, charged particle environment, and mass. </p><p>Mariner 2 had traditional solar panel wings for a constant supply of power, and it contained 1000 Watt-hour zinc batteries to store energy.  Its transmitter used the antenna dish on it to send and receive signals.  Along with those instruments, the satellite used multiple instruments for recording data, maintaining temperature, and recording data, such as its microwave radiometer.</p><p>With these instruments, the spacecraft discovered that Venus has a hot surface temperatures, a high surface pressure, mostly carbon dioxide for its atmosphere, a layer of clouds at about 60km altitude, and it has no magnetic field.  Estimates on its mass were also inferred.</p>",
-		"image":"/images/mariner2.jpg",
-		"caption":"Mariner 2, Cruising through the Solar System"
+		"name":"Spirit lands on Mars",
+		"date":"2004-01-04",
+		"descriptionShort":"Launched on June 10, 2003, Mars Exploration Rover (MER) Spirit explored the Martian surface. ",
+		"descriptionFull":"<p>The Mars Exploration Rover (MER) Spirit was launched on June 10, 2003 from Cape Canaveral on a Delta &#8545; rocket. It's main goal was to search for clues to past water activity on Mars. </p><p>After liftoff and boost, the vehicle was inserted into a circular \"parking orbit\", after which the NASA executed the necessary maneuvers to send the spacecraft on a trajectory to Mars. After separation of the launch vehicle, acquisition by the Deep Space Network (DSN), a series of inspections, and a few post-launch commands, the spacecraft entered it's \"cruise\" stage.</p><p>During cruise, the spacecraft spins 2 rpm. Not much is done during the cruise stage; the only actions by NASA are a few health checks and some calibration and corrections. Cruise ends 45 days from entry into the Martian atmosphere. At that time, the approach stage begins. </p><p>In the approach stage, the engineers begin preparations for the entry, descent, and landing stage. The mission team makes three more correction maneuvers, and perform frequent \"Delta DOR\" measurements to ensure accurate delivery. Once the spacecraft reaches the Martian atmosphere, the entry, descent, and landing (EDL) stage begins. There are five steps to EDL (taken directly from NASA's website): <ol><li>An aeroshell and a parachute decelerate the lander through the martian atmosphere.</li><li>Prior to surface impact, retro-rockets are fired to slow the lander´s speed of descent, and airbags are inflated to cushion the lander at surface impact.</li><li>After its initial impact, the lander bounces along the martian surface until it rolls to a stop.</li><li>The airbags are then deflated and retracted, and the lander petals and rover egress aids are deployed.</li><li>Once the petals have opened, the rover deploys its solar arrays, and places the system in a safe state.</li></ol></p><p>Both Spirit and it's twin Opportunity carry a Panoramic Camera, a Thermal Emission Spectrometer, a M&Ouml;ssbauer Spectrometer, an Alpha Particle X-Ray Spectrometer, Magnets, a Microscopic Imager, and a Rock Abrasion Tool. </p><p>The goal for each rover was to drive a total of 1 kilometer (about &frac34; of a mile). Spirit lasted 6 years, dying on March 22, 2010. It had traveled 7.73 kilometers (4.8 miles).</p>",
+		"image":"/images/mer.jpg", 
+		"caption":"An artist's view of a NASA Mars Exploration Rover on the surface of Mars. ",
+		"attribution":"By NASA/JPL/Cornell University, Maas Digital LLC [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3ANASA_Mars_Rover.jpg\" target=\"blank\">via Wikimedia Commons</a>",
+		"links":"https://www.nasa.gov/mission_pages/mer/overview/index.html,http://mars.nasa.gov/mer/mission/"
 	},
 	{
-		"name":"Luna 16",
-		"description":"<p>Luna 16, the first robotic probe lander on the moon, launched on September 12, 1970.  It had four legs attached to a cylindrical body with many other tools for studying the lunar mass, such as a drill and an extendable arm.  These were useful in collecting sample soil from the moon, for investigating it at a later time on earth.</p><p>Luna 16 began its descent to the moon on September 20, and it had a successful, soft landing.  About a day later, after it had collected samples, the lander was picked up.  Then, on September 24, it made a safe landing to earth.</p>",
-		"image":"/images/luna16.jpg",
-		"caption":"An image of Luna 16 flying in space"
+		"name":"Opportunity lands on Mars",
+		"date":"2004-01-25",
+		"descriptionShort":"Launched on July 7, 2003, Mars Exploration Rover (MER) Opportunity explored the Martian surface.",
+		"descriptionFull":"<p>The Mars Exploration Rover (MER) Opportunity was launched on July 7, 2003 from Cape Canaveral on a Delta &#8545; rocket. It followed the same path as it's twin, Spirit: Launch, Cruise, Approach, and Entry, Descent, and Landing (EDL). Opportunity landed on the Martian surface on January 24, 2016. </p><p>Opportunity carried the same instruments, and performed the same operations as Spirit. As of December 13, 2016, Opportunity is still running, and has traveled a total of 27.12 miles (43.65 kilometers), far outliving its expected lifetime. </p>",
+		"image":"/images/mer.jpg", 
+		"caption":"An artist's view of a NASA Mars Exploration Rover on the surface of Mars. ",
+		"attribution":"By NASA/JPL/Cornell University, Maas Digital LLC [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3ANASA_Mars_Rover.jpg\" target=\"blank\">via Wikimedia Commons</a>",
+		"links":"https://www.nasa.gov/mission_pages/mer/overview/index.html,http://mars.nasa.gov/mer/mission/"
 	},
 	{
-		"name":"Hubble Telescope",
-		"description":"Hubble launched on 1990 as an advanced photographic telescope to take high quality pictures of many star formations. ",
-		"image":"/images/hubble.jpg",
-		"caption":"A diagram of the Hubble Telescope"
+		"name":"First manned private space flight by SpaceShipOne",
+		"date":"2004-06-21",
+		"descriptionShort":"On June 21, 2004, SpaceShipOne became the first non-governmental manned spacecraft to fly in space.",
+		"descriptionFull":"<p>SpaceShipOne was a space plane designed by Scaled Composites. Its development was financially supported by Microsoft co-founder Paul Allen.</p><p>SpaceShipOne was 28 feet (8.5 meters) long, and about 5 feet (1.5 meters) in diameter. It held a pilot and two passengers. The wings gave the entire spacecraft a wingspan of 16 feet (5 meters). </p><p>The spacecraft was flown to an altitude of about 50,000 feet (15,000 meters) on its mother ship, White Knight. Once it was released, the spacecraft glided for a few seconds, before the rockets fired for 80 seconds to send the spacecraft into space. SpaceShipOne flew in space for about 3 minutes, before coming back to Earth.</p><p>SpaceShipOne made 17 flights over its lifetime. Although it served no real purpose, it was the basis for SpaceShipTwo, the second version of the spacecraft. But mostly it is remembered as the first private spacecraft in the history of spaceflight. </p>",
+		"image":"/images/spaceshipone.jpg", 
+		"caption":"SpaceShipOne after a successful flight on June 21, 2004. ",
+		"attribution":"By D Ramey Logan (Own work) [<a href=\"http://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3ASpaceShipOne_Flight_15P_photo_D_Ramey_Logan.jpg\" target=\"blank\">via Wikimedia Commons</a>",
+		"links":"http://www.space.com/16769-spaceshipone-first-private-spacecraft.html,https://www.nasa.gov/multimedia/imagegallery/image_feature_66.html"
 	},
 	{
-		"name":"Mars Odyssey",
-		"description":"INSERT DESCRIPTION HERE",
-		"image":"/images/odyssey.jpg",
-		"caption":"A diagram of the Mars Odyssey"
+		"name":"Commercial Space Launch Amendments Act of 2004",
+		"date":"2004-12-23",
+		"descriptionShort":"The Commercial Space Launch Amendments Act of 2004 removed the limitations of space travel.",
+		"descriptionFull":"<p>Before the Commercial Space Launch Amendments Act of 2004, private space travel was effectively illegal. This act removed most of the limitations of space travel, and opened the doors for private space companies to launch new spacecraft. Without this act, private space travel would be severely limited, if not completely illegal.</p>",
+		"image":"", 
+		"caption":"",
+		"attribution":"",
+		"links":"https://www.faa.gov/about/office_org/headquarters_offices/ast/media/PL108-492.pdf,https://www.govtrack.us/congress/bills/108/hr5382/text"
 	},
 	{
-		"name":"Curiosity Rover",
-		"description":"INSERT DESCRIPTION HERE",
-		"image":"/images/curiosity.jpg",
-		"caption":"A picture of the Curiosity Rover on mars"
+		"name":"First spacecraft to orbit Mercury",
+		"date":"2011-03-18",
+		"descriptionShort":"NASA's MESSENGER was the first spacecraft to orbit Mercury. ",
+		"descriptionFull":"<p>NASA's MErcury Surface, Space ENvironment, GEochemistry, and Ranging (MESSENGER) was launched on Augest 3, 2004 from Cape Canaveral. Because Mercury is so small and travels so fast, several gravity assists were needed to bring the trajectory and velocity of the spacecraft to the values needed for the Mercury Orbit Insertion (MOI). </p><p>The first of these gravity assists occurred one year after the launch of the spacecraft. On August 2, 2005, MESSENGER returned to Earth for a gravity assist. Then, a year after that on October 24, 2006, MESSENGER flew past Venus. MESSENGER flew past Venus again on June 5, 2007. These three gravity assists brought MESSENGER close to Mercury, but that still wasn't enough. </p><p>On January 14, 2008, October 6, 2008, and September 29, 2009, MESSENGER flew past Mercury. These flybys were needed for MOI, and also provided NASA with the first close-up look at Mercury in more than 30 years. These pictures were very useful in planning the observation strategies for when MESSENGER entered Mercury's orbit. </p><p>On March 18, 2011, MESSENGER fired its main thruster to decelerate by about 1,900 mph (3,058 kph) to enter Mercury's orbit. After traveling for about 4.9 billion miles (7.9 billion km) and completing 15 orbits of the Sun, MESSENGER succesfully entered a 12 hour orbit around our solar system's smallest planet. </p><p>On April 30, 2015, NASA crashed MESSENGER into Mercury, ending its historic mission.</p>",
+		"image":"/images/messenger.jpg", 
+		"caption":"An artist's view of the MESSENGER spacecraft in orbit around Mercury. ",
+		"attribution":"By NASA / JHU/APL [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3AMESSENGER_-_spacecraft_at_mercury_-_atmercury_lg.jpg\" target=\"blank\">via Wikimedia Commons</a>",
+		"links":"http://messenger.jhuapl.edu/,http://www.space.com/11160-nasa-spacecraft-mercury-orbit-messenger.html"
 	},
 	{
-		"name":"InSight",
-		"description":"none",
-		"image":"",
-		"caption":"A picture of InSight"
+		"name":"First commercial spacecraft to dock with the ISS",
+		"date":"2012-05-25",
+		"descriptionShort":"The SpaceX Dragon becomes the first spacecraft in history to visit the International Space Station.",
+		"descriptionFull":"<p>The SpaceX Dragon was launched atop a Falcon 9 rocket on May 22, 2012 from Cape Canaveral. On May 24, the spacecraft performed a fly-by to check navigation systems. </p><p>On May 25, the capsule approached the International Space Station, and was successfully attached to the space station, becoming the first commercial spacecraft to visit the International Space Station.</p>",
+		"image":"/images/dragon.jpg",
+		"caption":"The SpaceX Dragon approaches the ISS for grapple and berthing. ",
+		"attribution":"By NASA [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3ACOTS2Dragon.6.jpg\" target=\"blank\">via Wikimedia Commons</a>",
+		"links":"http://www.spacex.com/news/2013/02/08/mission-summary"
+	},
+	{
+		"name":"Curiosity lands on Mars",
+		"date":"2012-06-06",
+		"descriptionShort":"The Curiosity Rover is searching for signs of life on Mars.",
+		"descriptionFull":"<p>NASA launched the Mars Science Laboratory Curiosity Rover on November 26, 2011 from Cape Canaveral aboard an Atlas &#8548; rocket. After launch, Curiosity cruised until it was 45 days from entry into the Martian atmosphere. At that point, the approach phase begins.</p><p>Engineers begin intensive preparations during the approach phase. They perform the final trajectory correction maneuvers and constantly monitor the spacecraft's position and velocity, among other things. All this preparations is done to ensure a successful Entry, Descent, and Landing (EDL) phase. </p><p>The EDL phase consisted of four parts: Guided Entry, when the spacecraft is guided towards the Martian atmosphere by small rockets, Parachute Descent, when the spacecraft was slowed by a large parachute, Powered Descent, when more rockets slowed the spacecrafts's descent until the last stage, Sky Crane, when the sky crane system lowers the rover to a soft landing on the Martian Surface. The entire process enabled NASA to succesfully land the 2,000 lbs (900 kg) Curiosity safely on Mars without damaging any components.</p><p>Word of the touchdown was transmitted to Earth via NASA's Mars Odyssey orbiter. After landing, Curiosity's job is to explore the surrounding area and try to determine if Mars is, or ever was, capable of supporting microbial life. Curiosity mission was estimated to last roughly two earth years. As of today it is still operating. </p>",
+		"image":"/images/curiosity.jpg", 
+		"caption":"A self-portrait of NASA's Curiosity rover, constructed by combining dozens of images taken on Sol 1,126 by the Mars Hand Lens Imager (MAHLI) camera at the end of the rover's robotic arm. ",
+		"attribution":"By NASA (http://photojournal.jpl.nasa.gov/catalog/PIA19920) [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3ACuriosity_Self-Portrait_at_&#039;Big_Sky&#039;_Drilling_Site.jpg\" target=\"_blank\">via Wikimedia Commons</a>",
+		"links":"http://mars.jpl.nasa.gov/msl/,http://www.space.com/16932-mars-rover-curiosity-landing-success.html"
+	},
+	{
+		"name":"New Horizons arrives at Pluto",
+		"date":"2015-07-14",
+		"descriptionShort":"Launched on January 19, 2006, New Horizons explored the outer reaches of our olar system. ",
+		"descriptionFull":"<p>New Horizons was launched on January 19, 2006 from Cape Canaveral aboard an Atlas &#8548; rocket. From there it began its 9&frac12; year journey to dwarf-planet Pluto. The New Horizons mission provided us with the first reconnaissance of Pluto ever made in history, helping us understand the worlds at the edge of our solar system much better. </p><p>New Horizons flew by Jupiter for a gravity assist in February 2007. It also conducted some scientific studies during this flyby. This flyby, along with several other Trajectory Correction Maneuvers (TCM), allowed New Horizons to travel all the way to Pluto. </p><p>On July 14, 2015, New Horizons finished its 3 bilion mile journey, and arrived succesfully at Pluto. Its closest approach at Pluto took about one minute less than estimations made by NASA scienists back before launch, and accurately \"threaded the needle\" through a 36x57 mile (60x90 km) window in space, equivalent to landing a commercial airliner off by no more than the width of a tennis ball. New Horizons has provided us with the highest resolution images of Pluto we have to date. Before New Horizons, the only pictures of Pluto we had could be mistaken for coffee spills. </p><p>An extended mission for New Horizons is pending NASA approval. New Horizons will go even further, and explore another icy planet, at least a billion miles beyond Neptune's orbit.</p>",
+		"image":"/images/newhorizons.jpg", 
+		"caption":"An artist's view of the New Horizons spacecraft passing by Pluto and its moon Charon. ",
+		"attribution":"By NASA/JHU APL/SwRI/Steve Gribben [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3A15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg\" target=\"_blank\">via Wikimedia Commons</a>",
+		"links":"http://pluto.jhuapl.edu/,https://www.nasa.gov/mission_pages/newhorizons/main/index.html,https://www.nasa.gov/image-feature/january-19-2006-new-horizons-launches-for-pluto,https://www.nasa.gov/press-release/nasas-three-billion-mile-journey-to-pluto-reaches-historic-encounter"
+	},
+	{
+		"name":"First successful resuable rocket landing by SpaceX",
+		"date":"2015-12-21",
+		"descriptionShort":"For the first time in history, a rocket lands safely back on Earth for reuse.",
+		"descriptionFull":"<p>On December 21, 2015, the private spaceflight company SpaceX successfully landed the first stage of its Falcon 9 rocket back to Earth. This is the first time this has ever been done. </p><p>The Falcon 9 launched from Cape Canaveral at 8:29 PM EST, to deliver 11 satellites for communications company ORBCOMM. Once the two-stage rocket separated, the second stage lifted the satellites to space, while the first stage fell back to Earth. Normally, this first stage would just fall back into the ocean. This first stage performed a series of three \"boostback burns\", to decelerate and land back at Cape Canaveral.",
+		"image":"/images/falcon9.jpg",
+		"caption":"The first stage of the Falcon 9 lands on December 21, 2015. ",
+		"attribution":"By SpaceX [<a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\">CC0</a> or <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\">CC0</a>], <a href=\"https://commons.wikimedia.org/wiki/File%3AORBCOMM-2_First-Stage_Landing_(23271687254).jpg\" target=\"blank\">via Wikimedia Commons</a>",
+		"links":"http://www.space.com/31420-spacex-rocket-landing-success.html"
+	},
+	{
+		"name":"Juno arrives at Jupiter",
+		"date":"2016-07-04",
+		"descriptionShort":"Launched on August 5, 2011, Juno attempted to understand the origin and evolution of Jupiter. ",
+		"descriptionFull":"<p>Juno was launched on August 5, 2011 from Cape Canaveral aboard an Atlas &#8548; rocket. After launch, the spacecraft enters a \"parking\" orbit around Earth. It is in this orbit in which the rocket will fire again to insert Juno on its course towards Jupiter. Juno came back to Earth for a gravity assist in October 2013. This gravity assist propelled Juno towards Jupiter. </p><p>Juno arrived at Jupiter on July 4, 2016. Juno performed a delicate maneuver called the Jupiter Orbit Insertion by firing the engines at the perfect time and direction for the perfect duration. After Jupiter captured Juno, Juno entered a polar orbit, meaning that it orbits ober the poles. A combination of the rotation of Jupiter and Juno's carefully planned velocity allowed Juno to completely map Jupiter in 33 orbits. </p><p>Because Jupiter is theorized to have formed early on in the lifetime of the solar system, scientists believe that understanding Jupiter is vital to understanding the origin of our solar system, as well as the origin of our own planet, Earth. Juno helped tell us more about Jupiter, giving us information invaluable to the determination of our solar system's origin.</p>",
+		"image":"/images/juno.png", 
+		"caption":"An image of the Juno spacecraft. ",
+		"attribution":"By National Aeronautics and Space Administration (NASA) [Public domain], <a href=\"https://commons.wikimedia.org/wiki/File%3AJuno_Transparent.png\" target=\"_blank\">via Wikimedia Commons</a>",
+		"links":"https://www.nasa.gov/mission_pages/juno/main/index.html,https://www.missionjuno.swri.edu/"
 	}
 ]
