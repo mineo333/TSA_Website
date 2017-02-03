@@ -89,7 +89,7 @@
 		<figure>
 			<img class="img-responsive" src="/images/marssociety.jpg">
 			<figcaption>
-				The Flashline Mars Arctic Research Station (FMARS) Habitat on Devon Island in Nunavut, Canada
+				The Flashline Mars Arctic Research Station (FMARS) Habitat, established by the Mars Society, on Devon Island, Nunavut, Canada
 				<div class="image-attribution">
 					By Brian Shiro (Own work) [<a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], 
 					<a href="https://commons.wikimedia.org/wiki/File%3AFMARS_2009_hab.jpg">via Wikimedia Commons</a>

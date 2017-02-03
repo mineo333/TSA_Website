@@ -17,6 +17,21 @@
 		<meta charset="utf-8">
 		<title>Mission To Mars</title>	
 		<?php include("../../includes/head.php"); ?>
+		<style type="text/css">
+			figure {
+				width: 100%;
+				background-color: white;
+				border-radius: 5px;
+				padding: 8px;
+				margin-bottom: 10px;
+			}
+			@media (min-width: 768px) {
+				figure {
+					width: 47.5%;
+					float: none;
+				}
+			}
+		</style>
     </head>
     <body>
 	<?php include("../../includes/navbar.php"); ?>
@@ -29,7 +44,26 @@
 		<p>Space vehicles are, obviously, a key part of space exploration. Without these vehicles, space exploration would not be possible. 
 		This section will outline the accomplishments and contributions to space exploration of several key space vehicles. It is divided into two 
 		parts: manned and unmanned.</p>
-		<p>Click <a href="/vehicles/manned">here</a> to learn about manned space vehicles, <a href="/vehicles/unanned">here</a> to learn about unmanned space vehicles</p>
+		<figure class="vehicle-page" style="float: left;">
+			<img class="img-responsive" src="/images/iss.jpg">
+			<figcaption>
+				The International Space Station (ISS)
+				<div class="image-attribution">
+					By NASA/Crew of STS-132 [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AInternational_Space_Station_after_undocking_of_STS-132.jpg" target="_blank">via Wikimedia Commons</a>
+				</div>
+				<p><a href="/vehicles/manned">Click here to learn about manned space vehicles</a></p>
+			</figcaption>
+		</figure>
+		<figure class="vehicle-page" style="float: right;">
+			<img class="img-responsive" src="/images/newhorizons.jpg">
+			<figcaption>
+				An artist's view of the New Horizons spacecraft passing by Pluto and its moon Charon. 
+				<div class="image-attribution">
+					By NASA/JHU APL/SwRI/Steve Gribben [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3A15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg" target="_blank">via Wikimedia Commons</a>
+				</div>
+				<p><a href="/vehicles/unmanned">Click here to learn about unmanned space vehicles</a></p>
+			</figcaption>
+		</figure>
 	</div>
 	<?php include("../../includes/footer.php"); ?>    
     </body>

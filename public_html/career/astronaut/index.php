@@ -45,7 +45,9 @@
 			<img class="img-responsive" src="/images/brucemccandless.jpg">
 			<figcaption>
 				Astronaut Bruce McCandless &#8545; using a Manned Maneuvering Unit (MMU) on shuttle mission STS-41-B in 1984. 
-				<br>By NASA [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AAstronaut-EVA.jpg">via Wikimedia Commons</a>
+				<div class="image-attribution">
+					By NASA [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AAstronaut-EVA.jpg">via Wikimedia Commons</a>
+				</div>
 			</figcaption>
 		</figure>
 		<section>
@@ -65,7 +67,9 @@
 			<img class="img-responsive" src="/images/yurigagarin.jpg">
 			<figcaption>
 				Yuri Gagarin, the first person to go to space.
-				<br>By Arkiv: Sydsvenskan (sydsvenskan.se) [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AGagarin_in_Sweden.jpg">via Wikimedia Commons</a>
+				<div class="image-attribution">
+					By Arkiv: Sydsvenskan (sydsvenskan.se) [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AGagarin_in_Sweden.jpg">via Wikimedia Commons</a>
+				</div>
 			</figcaption>
 		</figure>
 		<section>
