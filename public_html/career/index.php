@@ -56,7 +56,8 @@
 						<br>By NASA [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AAstronaut-EVA.jpg">via Wikimedia Commons</a>
 					</figcaption>
 				</figure>
-				<div class="career-description">Astronauts are the ones who actually go to space. <a href="/career/astronaut">Click to read more about astronauts. </a></div>
+				<div class="career-description">Astronauts are the ones who actually go to space. 
+				<br><a href="/career/astronaut" role="button" class="btn btn-primary">READ MORE</a></div>
 			</div>
 		</div>
 		<div class="panel panel-default">
@@ -68,7 +69,8 @@
 						A chemist at work.
 					</figcaption>
 				</figure>
-				<div class="career-description">Chemists find new ways to build rockets and keep humans healthy in space. <a href="/career/chemist">Click to read more about chemists. </a></div>
+				<div class="career-description">Chemists find new ways to build rockets and keep humans healthy in space. 
+				<br><a href="/career/chemist" role="button" class="btn btn-primary">READ MORE</a></div>
 			</div>
 		</div>
 		<div class="panel panel-default">
@@ -81,7 +83,8 @@
 						<br>By Bill Bertram (Bill Bertram) [<a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA-3.0</a>, <a href="http://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, <a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a> or <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA-3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3APCB_Spectrum.jpg">via Wikimedia Commons</a>
 					</figcaption>
 				</figure>
-				<div class="career-description">Electricians keep the electrical aspects of space equipment functioning properly. <a href="/career/electrician">Click to read more about electricians. </a></div>
+				<div class="career-description">Electricians keep the electrical aspects of space equipment functioning properly. 
+				<br><a href="/career/electrician" role="button" class="btn btn-primary">READ MORE</a></div>
 			</div>
 		</div>
 		<div class="panel panel-default">
@@ -94,7 +97,8 @@
 						<br>Bundesarchiv, Bild 183-23805-1665 / CC-BY-SA 3.0 [<a href="http://creativecommons.org/licenses/by-sa/3.0/de/deed.en">CC BY-SA 3.0 de</a>], <a href="https://commons.wikimedia.org/wiki/File%3ABundesarchiv_Bild_183-23805-1665%2C_Ingenieure_mit_Konstruktionsplan.jpg">via Wikimedia Commons</a>
 					</figcaption>
 				</figure>
-				<div class="career-description">Engineers design and build the complex machines that send spacecraft into space. <a href="/career/engineer">Click to read more about engineers. </a></div>
+				<div class="career-description">Engineers design and build the complex machines that send spacecraft into space. 
+				<br><a href="/career/engineer" role="button" class="btn btn-primary">READ MORE</a></div>
 			</div>
 		</div>
 		<div class="panel panel-default">
@@ -107,7 +111,8 @@
 						<br>By Lucas Taylor / CERN (http://cdsweb.cern.ch/record/628469) [<a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3ACMS_Higgs-event.jpg">via Wikimedia Commons</a>
 					</figcaption>
 				</figure>
-				<div class="career-description">Physicists determine how to properly maneuver a spacecraft to its designated target. <a href="/career/engineer">Click to read more about physicists. </a></div>
+				<div class="career-description">Physicists determine how to properly maneuver a spacecraft to its designated target. 
+				<br><a href="/career/engineer" role="button" class="btn btn-primary">READ MORE</a></div>
 			</div>
 		</div>
 	</div>

@@ -51,7 +51,7 @@
 				<div class="image-attribution">
 					By NASA/Crew of STS-132 [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3AInternational_Space_Station_after_undocking_of_STS-132.jpg" target="_blank">via Wikimedia Commons</a>
 				</div>
-				<p><a href="/vehicles/manned">Click here to learn about manned space vehicles</a></p>
+				<p><a href="/vehicles/manned" role="button" class="btn btn-primary">Learn more about manned space vehicles</a></p>
 			</figcaption>
 		</figure>
 		<figure class="vehicle-page" style="float: right;">
@@ -61,7 +61,7 @@
 				<div class="image-attribution">
 					By NASA/JHU APL/SwRI/Steve Gribben [Public domain], <a href="https://commons.wikimedia.org/wiki/File%3A15-011a-NewHorizons-PlutoFlyby-ArtistConcept-14July2015-20150115.jpg" target="_blank">via Wikimedia Commons</a>
 				</div>
-				<p><a href="/vehicles/unmanned">Click here to learn about unmanned space vehicles</a></p>
+				<p><a href="/vehicles/unmanned" role="button" class="btn btn-primary">Learn more about unmanned space vehicles</a></p>
 			</figcaption>
 		</figure>
 	</div>
