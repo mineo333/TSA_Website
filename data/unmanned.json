@@ -36,7 +36,7 @@
 	},
 	{
 		"name":"Mars Odyssey",
-		"description":"INSERT DESCRIPTION HERE",
+		"description":"<p>The Mars Odyssey satellite has significantly contributed to NASA's knowledge of Mars after its launch on April 7, 2001.</p>",
 		"image":"/images/odyssey.jpg",
 		"caption":"A diagram of the Mars Odyssey"
 	},
