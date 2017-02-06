@@ -24,13 +24,13 @@
 	},
 	{
 		"name":"Luna 16",
-		"description":"INSERT DESCRIPTION HERE",
+		"description":"<p>Luna 16, the first robotic probe lander on the moon, launched on September 12, 1970.  It had four legs attached to a cylindrical body with many other tools for studying the lunar mass, such as a drill and an extendable arm.  These were useful in collecting sample soil from the moon, for investigating it at a later time on earth.</p><p>Luna 16 began its descent to the moon on September 20, and it had a successful, soft landing.  About a day later, after it had collected samples, the lander was picked up.  Then, on September 24, it made a safe landing to earth.</p>",
 		"image":"/images/luna16.jpg",
 		"caption":"An image of Luna 16 flying in space"
 	},
 	{
 		"name":"Hubble Telescope",
-		"description":"INSERT DESCRIPTION HERE",
+		"description":"<p>Hubble, a complex camera, launched on April 24, 1990 as an advanced photographic telescope to take high quality pictures of many star formations, comets, and nebulae to escape earth's blurring atmosphere.  It takes photos using infared and ultraviolet sensors from the exosphere, which does not have many contaminants.  </p><p>To carry all of these sensors, Hubble needs considerable size, which is why it measures 43 feet in length and 14 feet in width.  Not only does it hold a multitude of sensors, but it has two mirrors and support systems that help the telescope focus.  Finally, the essential antenna allows the telescope to keep in constant communication with NASA, so that it can send back data.</p>",
 		"image":"/images/hubble.jpg",
 		"caption":"A diagram of the Hubble Telescope"
 	},
