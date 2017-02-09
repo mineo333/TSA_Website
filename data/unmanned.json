@@ -42,7 +42,7 @@
 	},
 	{
 		"name":"Curiosity Rover",
-		"description":"<p>On November 26, 2011, the Curiosity Mars Rover was recently sent into space with a mission to find out if Mars could support microbial life.  It has currently found several features, such as sand dunes, rock strata, water, and mineral formations.  One of its discoveries in December was a stream, which has favorable conditions for microbe life.</p><p>The rover runs on wheels throughout its exploration on Mars.  It analyzes its surroundings and collects data, using the cameras, spectrometers, radiation sensors, environmental sensors, and atmospheric sensors.  With its multiple antennas, Curiosity can then communicate this data or anything in general to places such as earth or the Mars Odyssey Satellite.</p>",
+		"description":"<p>On November 26, 2011, the Curiosity Mars Rover was recently sent into space with a mission to find out if Mars could support microbial life.  It has currently found several features, such as sand dunes, rock strata, water, and mineral formations.  One of its discoveries in December was a stream, which has favorable conditions for microbe life.</p><p>The rover runs on wheels and generates power through radioactive plutonium decay in its exploration on Mars.  It analyzes its surroundings and collects data, using the cameras, spectrometers, radiation sensors, environmental sensors, and atmospheric sensors.  With its multiple antennas, Curiosity can then communicate this data or anything in general to places such as earth or the Mars Odyssey Satellite.</p>",
 		"image":"/images/curiosity.jpg",
 		"caption":"A picture of the Curiosity Rover on mars"
 	},
