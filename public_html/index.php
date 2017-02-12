@@ -30,10 +30,6 @@
 				Mission To Mars - Announcements
 			</h2>
 		</div>
-		<div class="alert alert-success alert-dismissable fade in">
-			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-			<strong>Checklist below</strong> Several pages have been finished. Track progress with the checklist below.
-		</div>
 		<p>We'll be putting announcements here as we need them.</p>
 		<p>We've finished a bunch of pages, so here's a checklist: </p>
 		<ul>
@@ -42,13 +38,13 @@
 			<li>Evolution of Space Vehicles
 				<ul>
 					<li>Manned</li>
-					<li>Unmanned</li>
+					<li class="done">Unmanned</li>
 				</ul>
 			</li>
 			<li>Career Fields
 				<ul>
 					<li class="done">Astronaut</li>
-					<li>Chemist</li>
+					<li class="done">Chemist</li>
 					<li>Electrician</li>
 					<li>Engineer</li>
 					<li>Physicist</li>
