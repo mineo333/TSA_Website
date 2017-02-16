@@ -22,10 +22,22 @@
 	<div class="container">
 		<div class="page-header">
 			<h2>
-				Interview One
+				First Interview
 			</h2>
 		</div>
 		<p>This will be the first interview
+	</div>
+	    <div class="container">
+	<p>
+        Q: Why do you believe it is important to reach mars?
+ 	</p>
+	<p>
+	A:
+	</p>
+	</div>
+	    <div class="container">
+		    <p>Q: What about Mars interests you?</p>
+		    <p>A: </p>
 	</div>
    <?php include("../../../includes/footer.php"); ?> 
     </body>
